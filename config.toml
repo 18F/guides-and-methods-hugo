@@ -2,3 +2,15 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'New Hugo Site'
 theme = "ananke"
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    title = 'New Hugo Site'
+    weight = 2
+  [languages.fr]
+    contentDir = 'content/fr'
+    languageName = 'Français'
+    title = 'Mon site En Français'
+    weight = 1
