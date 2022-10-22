@@ -1,10 +1,11 @@
 ---
-title: "Ananke: a Hugo Theme"
-
-description: "The last theme you'll ever need. Maybe."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
+title: "Guides main page"
+description: "Principles and standards that shape our work"
 theme_version: '2.8.2'
 cascade:
-  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+  featured_image: ''
+abstract: "18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day work."
 ---
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+Beyond helping 18F staff do their best work, we hope these guides will inspire other federal agencies to adopt new practices. 18F’s projects with other federal agencies show that these techniques can help projects stay within budget, provide excellent value to the public, and fulfill federal rules.
+
+These guides, and all of 18F’s work, are in the worldwide public domain. You are free to copy and adapt them as you choose. If you see something amiss or want to suggest a change, there are links at the bottom of each guide to help you contribute.

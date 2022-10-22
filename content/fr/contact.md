@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contactez
 featured_image: ''
 omit_header_text: true
 description: Laissez-nous un message!
