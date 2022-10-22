@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/post/chapter-6/</loc>
+    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
     <xhtml:link
@@ -14,9 +17,6 @@
                 hreflang="en"
                 href="/"
                 />
-  </url><url>
-    <loc>/post/chapter-6/</loc>
-    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
   </url><url>
     <loc>/post/chapter-5/</loc>
     <lastmod>2017-04-13T11:15:58-04:00</lastmod>
@@ -94,6 +94,22 @@
                 href="/about/"
                 />
   </url><url>
+    <loc>/guide1/breadcrumb-page/</loc>
+  </url><url>
+    <loc>/guide2/breadcrumb-page/</loc>
+  </url><url>
+    <loc>/guide3/breadcrumb-page/</loc>
+  </url><url>
+    <loc>/guide4/breadcrumb-page/</loc>
+  </url><url>
+    <loc>/guide1/card-page/</loc>
+  </url><url>
+    <loc>/guide2/card-page/</loc>
+  </url><url>
+    <loc>/guide3/card-page/</loc>
+  </url><url>
+    <loc>/guide4/card-page/</loc>
+  </url><url>
     <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -117,5 +133,69 @@
                 hreflang="en"
                 href="/contact/"
                 />
+  </url><url>
+    <loc>/guide1/</loc>
+  </url><url>
+    <loc>/guide2/</loc>
+  </url><url>
+    <loc>/guide3/</loc>
+  </url><url>
+    <loc>/guide4/</loc>
+  </url><url>
+    <loc>/guide1/subsection1/new-page/</loc>
+  </url><url>
+    <loc>/guide1/subsection2/new-page/</loc>
+  </url><url>
+    <loc>/guide1/page-with-code/</loc>
+  </url><url>
+    <loc>/guide2/page-with-code/</loc>
+  </url><url>
+    <loc>/guide3/page-with-code/</loc>
+  </url><url>
+    <loc>/guide4/page-with-code/</loc>
+  </url><url>
+    <loc>/guide1/page-with-images/</loc>
+  </url><url>
+    <loc>/guide2/page-with-images/</loc>
+  </url><url>
+    <loc>/guide3/page-with-images/</loc>
+  </url><url>
+    <loc>/guide4/page-with-images/</loc>
+  </url><url>
+    <loc>/guide1/page-with-tables/</loc>
+  </url><url>
+    <loc>/guide2/page-with-tables/</loc>
+  </url><url>
+    <loc>/guide3/page-with-tables/</loc>
+  </url><url>
+    <loc>/guide4/page-with-tables/</loc>
+  </url><url>
+    <loc>/guide1/sidenav-page/</loc>
+  </url><url>
+    <loc>/guide2/sidenav-page/</loc>
+  </url><url>
+    <loc>/guide3/sidenav-page/</loc>
+  </url><url>
+    <loc>/guide4/sidenav-page/</loc>
+  </url><url>
+    <loc>/guide1/subsection1/</loc>
+  </url><url>
+    <loc>/guide1/subsection2/</loc>
+  </url><url>
+    <loc>/guide1/top-nav-page/</loc>
+  </url><url>
+    <loc>/guide2/top-nav-page/</loc>
+  </url><url>
+    <loc>/guide3/top-nav-page/</loc>
+  </url><url>
+    <loc>/guide4/top-nav-page/</loc>
+  </url><url>
+    <loc>/guide1/wide-page/</loc>
+  </url><url>
+    <loc>/guide2/wide-page/</loc>
+  </url><url>
+    <loc>/guide3/wide-page/</loc>
+  </url><url>
+    <loc>/guide4/wide-page/</loc>
   </url>
 </urlset>

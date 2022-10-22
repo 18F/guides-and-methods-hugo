@@ -1,16 +1,16 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'New Hugo Site'
-theme = "ananke"
+title = '18F Guides and Methods'
+theme = "guides"
 
 [languages]
   [languages.en]
     contentDir = 'content/en'
     languageName = 'English'
-    title = 'New Hugo Site'
+    title = '18F Guides and Methods'
     weight = 2
   [languages.fr]
     contentDir = 'content/fr'
     languageName = 'Français'
-    title = 'Mon site En Français'
+    title = 'Guides et méthodes 18F'
     weight = 1
