@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guide2 on New Hugo Site</title>
+    <title>Guide2 on 18F Guides and Methods</title>
     <link>/guide2/</link>
-    <description>Recent content in Guide2 on New Hugo Site</description>
+    <description>Recent content in Guide2 on 18F Guides and Methods</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/guide2/index.xml" rel="self" type="application/rss+xml" />
     <item>
