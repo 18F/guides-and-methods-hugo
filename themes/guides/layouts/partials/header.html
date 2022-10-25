@@ -1,83 +1,14 @@
-<header>
-  <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default " bg-black" }}">
-    {{ partial "site-navigation.html" . }}
-    <div class="tc-l pv3 ph3 ph4-ns">
-      <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-        {{ .Title | default .Site.Title }}
-      </h1>
-      {{ with .Params.description }}
-      <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-        {{ . }}
-      </h2>
-      {{ end }}
-    </div>
-  </div>
-</header>
-<strong>USWDS header</strong>
 <div class="usa-overlay"></div>
 <header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="-logo">
-        <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
+        <em class="usa-logo__text"><a href="/" title="Home">Logo</a></em>
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
     </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
-      <button type="button" class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
-      </button>
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <button type="button" class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false"
-            aria-controls="basic-nav-section-one">
-            <span>&lt;Current section&gt;</span>
-          </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false"
-            aria-controls="basic-nav-section-two">
-            <span>&lt;Section&gt;</span>
-          </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
-        </li>
-      </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input class="usa-input" id="search-field" type="search" name="search" />
-          <button class="usa-button" type="submit">
-            <img src="/assets/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" />
-          </button>
-        </form>
-      </section>
-    </nav>
+    {{ partial "topnav.html" . }}
+    {{ partial "i18nlist.html" . }}
+    {{ partial "search.html" . }}
   </div>
 </header>

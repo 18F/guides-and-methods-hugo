@@ -1,0 +1,14 @@
+<section>
+  <div class="{{ .Site.Params.background_color_class | default " bg-black" }}">
+    <div class="">
+      <h1 class="text-base-lightest">
+        {{ .Title | default .Site.Title }}
+      </h1>
+      {{ with .Params.description }}
+      <h2 class="text-base-light mt3 mb4">
+        {{ . }}
+      </h2>
+      {{ end }}
+    </div>
+  </div>
+</section>

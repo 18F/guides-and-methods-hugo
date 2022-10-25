@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
+
     <body>
+        {{- partial "site-alert.html" . -}}
+        {{- partial "banner.html" . -}}
         {{- partial "header.html" . -}}
+        {{- partial "hero.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+            {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+        {{- partial "identifier.html" . -}}
     </body>
+
 </html>
