@@ -1,0 +1,15 @@
+_site/
+site/
+public/
+dist/
+themes/ananke
+themes/guides/assets/uswds/packages
+themes/guides/assets/uswds/src
+themes/*/*/.DS_Store
+.sass-cache/
+.jekyll-metadata
+node_modules/
+.ruby-version
+.env
+.DS_Store
+.hugo_build.lock
