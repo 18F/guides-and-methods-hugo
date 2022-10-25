@@ -1,0 +1,15 @@
+baseURL: ""
+languageCode: en-us
+title: 18F Guides and Methods
+theme: guides
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    title: 18F Guides and Methods
+    weight: 2
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    title: Guides et méthodes 18F
+    weight: 1
