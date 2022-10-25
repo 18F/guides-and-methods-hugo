@@ -3,6 +3,14 @@
 
 This is an experimental repository by the 18F Guides and Methods team.
 
+## Features
+
+* Combined infrastructure
+* Multilingual support
+* Improved performance
+* Sample governance workflow
+* Sample content management workflow
+
 ## Hypotheses we are testing
 
 ## Getting Started (developers)
