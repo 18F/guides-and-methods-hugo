@@ -2,11 +2,12 @@
   <button type="button" class="usa-nav__close">
     <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
   </button>
+  {{ if .Site.Menus.main }}
   <ul class="usa-nav__primary usa-accordion">
     <li class="usa-nav__primary-item">
       <button type="button" class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false"
         aria-controls="basic-nav-section-one">
-        <span>Sections</span>
+        <span>{{ .Site.Params.shortTitle }}</span>
       </button>
       <ul id="basic-nav-section-one" class="usa-nav__submenu">
         <li class="usa-nav__submenu-item">
@@ -23,14 +24,11 @@
         </li>
       </ul>
     </li>
+    {{ range .Site.Menus.main }}
     <li class="usa-nav__primary-item">
-      <a href="/about" class="usa-nav-link">About</span></a>
+      <a href="{{ .URL }}" class="usa-nav-link" title="{{ i18n " pageTitle" . }}">{{ .Name }}</span></a>
     </li>
-    <li class="usa-nav__primary-item">
-      <a href="/contact" class="usa-nav-link">Contact</a>
-    </li>
-    <li class="usa-nav__primary-item">
-      <a href="/testimonials" class="usa-nav-link">Testimonials</a>
-    </li>
+    {{ end }}
   </ul>
+  {{ end }}
 </nav>

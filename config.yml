@@ -13,3 +13,5 @@ languages:
     languageName: Français
     title: Guides et méthodes 18F
     weight: 1
+Params:
+  shortTitle: Guides
