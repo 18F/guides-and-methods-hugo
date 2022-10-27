@@ -13,5 +13,7 @@
         {{- partial "footer.html" . -}}
         {{- partial "identifier.html" . -}}
     </body>
+    {{ $script := resources.Get "/uswds/dist/js/uswds.min.js" }}
+    <script src="{{ $script.Permalink }}"></script>
 
 </html>
