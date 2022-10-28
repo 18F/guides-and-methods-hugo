@@ -6,10 +6,11 @@ This is an experimental repository by the 18F Guides and Methods team.
 ## Features
 
 * Combined infrastructure
-* Multilingual support
+* Flexible layout templates
 * Improved performance
 * Sample governance workflow
 * Sample content management workflow
+* Multilingual support
 
 ## Hypotheses we are testing
 
@@ -17,7 +18,12 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 Please follow the instructions for [Installing Hugo locally](https://gohugo.io/getting-started/usage/).
 
-Run `hugo server`.
+Anyone that would like to help Dockerize this setup, please contact @cannandev.
+
+1. Clone `https://github.com/18F/guides-and-methods-hugo.git`
+1. `cd` into new directory.
+1. Run `hugo server`.
+1. Visit default URL: localhost:1313
 
 ## Getting Started (content mananagers)
 
