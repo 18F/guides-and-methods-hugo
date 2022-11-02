@@ -7,6 +7,8 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 * Combined infrastructure
 * Flexible layout templates
+* Section specific themes
+* Page bundle archetypes
 * Improved performance
 * Sample governance workflow
 * Sample content management workflow
@@ -26,6 +28,11 @@ Anyone that would like to help Dockerize this setup, please contact @cannandev.
 1. Visit default URL: localhost:1313
 
 ## Getting Started (content mananagers)
+
+## Create a new section 
+
+1. Run hugo new --kind section-bundle (nameOfSection)
+
 
 TBD
 
