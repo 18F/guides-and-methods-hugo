@@ -1,6 +1,6 @@
 ---
-title: "Guide1"
+title: "Section1"
 type: landing
 ---
 
-This is the landing page for Guide1 content.
+This is the landing page for Section1 content.

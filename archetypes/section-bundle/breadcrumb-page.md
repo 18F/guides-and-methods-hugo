@@ -1,6 +1,6 @@
 ---
-title: "Top navigation page"
-page: top
+title: "Breadcrumb page"
+breadcrumb: true
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._

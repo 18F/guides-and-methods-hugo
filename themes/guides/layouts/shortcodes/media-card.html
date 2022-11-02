@@ -1,0 +1,19 @@
+<div class="usa-card__container {{ .Get "size" }}">
+  <div class="usa-card__header">
+    <h2 class="usa-card__heading">{{ .Get "heading" }}</h2>
+  </div>
+  <div class="usa-card__media">
+    <div class="usa-card__img">
+      <img src="{{ .Get "image" }}"
+        alt="{{ .Get "alt" }}" />
+    </div>
+  </div>
+  <div class="usa-card__body">
+    <p>
+      {{ .Get "text" }}
+    </p>
+  </div>
+  <div class="usa-card__footer">
+    <button type="button" class="usa-button">{{ .Get "link_text" }}</button>
+  </div>
+</div>

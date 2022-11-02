@@ -10,18 +10,11 @@
         <span>{{ .Site.Params.shortTitle }}</span>
       </button>
       <ul id="basic-nav-section-one" class="usa-nav__submenu">
+        {{ range where .Site.Pages "Type" "==" "landing" }}
         <li class="usa-nav__submenu-item">
-          <a href="">Section1></a>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
-        <li class="usa-nav__submenu-item">
-          <a href="">Section2></a>
-        </li>
-        <li class="usa-nav__submenu-item">
-          <a href="">Section3></a>
-        </li>
-        <li class="usa-nav__submenu-item">
-          <a href="">Section4></a>
-        </li>
+        {{ end }}
       </ul>
     </li>
     {{ range .Site.Menus.main }}
