@@ -1,5 +1,6 @@
 ---
 title: "Section6"
+type: landing
 ---
 
 Landing page for section6

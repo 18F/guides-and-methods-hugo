@@ -5,20 +5,13 @@
     {{- .Content -}}
   </section>
   <section>
-    {{ range first 10 ( where .Site.RegularPages "Type" .Section ) }}
     <ul>
+      {{ range .Paginator.Pages }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
+      {{ end }}
     </ul>
-    {{ end }}
-  </section>
-  <section class="flex-ns flex-wrap justify-around mt5">
-    {{ range .Paginator.Pages }}
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      {{ .Render "summary" }}
-    </div>
-    {{ end }}
   </section>
 </article>
 {{ end }}

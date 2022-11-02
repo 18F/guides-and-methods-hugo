@@ -12,13 +12,13 @@
     {{.Content}}
   </div>
   <section>
-    {{ range where .Sections "Type" "!=" "post" }}
     <ul>
+      {{ range where .Sections "Type" "==" "landing" }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
+      {{ end }}
     </ul>
-    {{ end }}
   </section>
 </main>
 {{ end }}

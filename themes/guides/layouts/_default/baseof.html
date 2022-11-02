@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+    {{- partialCached "head.html" . -}}
 
     <body>
-        {{- partial "site-alert.html" . -}}
-        {{- partial "banner.html" . -}}
+        {{- partialCached "site-alert.html" . -}}
+        {{- partialCached "banner.html" . -}}
         {{- partial "header.html" . -}}
         {{- partial "hero.html" . -}}
         <div id="content">
             {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
-        {{- partial "identifier.html" . -}}
+        {{- partialCached "footer.html" . -}}
+        {{- partialCached "identifier.html" . -}}
     </body>
     {{ $script := resources.Get "/uswds/dist/js/uswds.min.js" }}
     <script src="{{ $script.Permalink }}"></script>
