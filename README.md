@@ -31,7 +31,7 @@ Anyone that would like to help Dockerize this setup, please contact @cannandev.
 
 ## Create a new section 
 
-1. Run hugo new --kind section-bundle (nameOfSection)
+Run `hugo new --kind section-bundle (nameOfSection)`
 
 
 TBD
