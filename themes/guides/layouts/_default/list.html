@@ -8,7 +8,7 @@
     {{ range first 10 ( where .Site.RegularPages "Type" .Section ) }}
     <ul>
       <li>
-        {{ .Title }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
     </ul>
     {{ end }}
