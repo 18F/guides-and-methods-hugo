@@ -1,6 +1,5 @@
 ---
 title: "Breadcrumb page"
-page: top
 breadcrumb: true
 ---
 
