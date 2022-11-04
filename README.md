@@ -5,7 +5,7 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 ## Features
 
-* Combined infrastructure
+* It's on [cloud.gov Pages](https://pages.cloud.gov/sites/1253/builds) 
 * Flexible layout templates
 * Section specific themes
 * Page bundle archetypes
