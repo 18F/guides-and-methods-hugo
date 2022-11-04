@@ -7,7 +7,7 @@
         {{- partialCached "banner.html" . -}}
         {{- partial "header.html" . -}}
         {{- partial "hero.html" . -}}
-        <div id="content">
+        <div id="content" class="grid-container">
             {{- block "main" . }}{{- end }}
         </div>
         {{- partialCached "footer.html" . -}}
