@@ -39,3 +39,6 @@ other = "A continuación encontrará las páginas asociadas a “{{ .Title }}”
 
 [pageTitle]
 other = "{{ .Name }} pagina"
+
+[translations]
+other = "Traducciones"
