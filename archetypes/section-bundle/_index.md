@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 type: landing
+icon: "images/user-interviews-love--c.svg"
 ---
 
 Landing page for {{ .Section }}
