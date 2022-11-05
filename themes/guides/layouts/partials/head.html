@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Site.Title }}</title>
-  {{ $script := resources.Get "/uswds/dist/js/uswds-init.min.js" }}
+  {{ $script := resources.Get "/uswds/dist/js/uswds-init.min.js" | resources.Fingerprint}}
   <script src="{{ $script.Permalink }}"></script>
   {{ $style := resources.Get "/uswds/dist/css/uswds.min.css" | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
