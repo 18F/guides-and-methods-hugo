@@ -6,19 +6,22 @@
     <span class="subtitle">{{.}}</span>
     {{ end }}
   </header>
-  <div class="font-sans-lg">
+  <div class="padding-y-6 font-sans-lg">
     {{ .Params.abstract }}
   </div>
-  <section>
-    <ul>
+  <section class="maxw-tablet">
+    <ul class="grid-row grid-gap add-list-reset">
       {{ range where .Sections "Type" "==" "landing" }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <li class="grid-col-6 tablet:grid-col-4 padding-y-2">
+        {{ $icon := resources.Get "images/user-interviews-love--c.svg" }}
+        <a class="display-block" href="{{ .RelPermalink }}">
+          <img src="{{ $icon.RelPermalink }}" aria-hidden />
+          {{ .Title }}</a>
       </li>
       {{ end }}
     </ul>
   </section>
-  <div class="usa-prose">
+  <div class="usa-prose padding-y-6">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
   </div>

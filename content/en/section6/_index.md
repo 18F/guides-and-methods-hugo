@@ -1,6 +1,7 @@
 ---
 title: "Section6"
 type: landing
+icon: "images/user-interviews-love--c.svg"
 ---
 
 Landing page for section6
