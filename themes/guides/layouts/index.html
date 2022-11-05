@@ -9,14 +9,16 @@
   <div class="padding-y-6 font-sans-lg">
     {{ .Params.abstract }}
   </div>
-  <section class="maxw-tablet">
+  <section class="maxw-tablet-lg">
     <ul class="grid-row grid-gap add-list-reset">
       {{ range where .Sections "Type" "==" "landing" }}
-      <li class="grid-col-6 tablet:grid-col-4 padding-y-2">
-        {{ $icon := resources.Get "images/user-interviews-love--c.svg" }}
-        <a class="display-block" href="{{ .RelPermalink }}">
-          <img src="{{ $icon.RelPermalink }}" aria-hidden />
-          {{ .Title }}</a>
+      <li class="grid-col-6 tablet:grid-col-4">
+        {{ $icon := resources.Get .Params.icon }}
+        <a class="display-block padding-top-6 padding-right-6 hover:bg-accent-cool-lighter" href="{{ .RelPermalink }}">
+          <img src="{{ $icon.RelPermalink }}" class="width-15 margin-bottom-1 display-block" aria-hidden="true"
+            role="img" />
+          <span>{{ .Title }}</span>
+        </a>
       </li>
       {{ end }}
     </ul>
