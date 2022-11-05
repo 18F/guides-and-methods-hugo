@@ -1,5 +1,5 @@
 ---
-title: "Guides main page"
+title: "Guides"
 description: "Principles and standards that shape our work"
 theme_version: '2.8.2'
 type: list
