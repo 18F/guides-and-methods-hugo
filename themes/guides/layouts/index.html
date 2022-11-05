@@ -2,23 +2,30 @@
 <!-- Homepage template -->
 <main aria-role="main">
   <header class="homepage-header">
-    <h1>{{.Title}}</h1>
     {{ with .Params.subtitle }}
     <span class="subtitle">{{.}}</span>
     {{ end }}
   </header>
-  <div class="homepage-content">
-    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-    {{.Content}}
+  <div class="padding-y-6 font-sans-lg">
+    {{ .Params.abstract }}
   </div>
-  <section>
-    <ul>
+  <section class="maxw-tablet-lg">
+    <ul class="grid-row grid-gap add-list-reset">
       {{ range where .Sections "Type" "==" "landing" }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <li class="grid-col-6 tablet:grid-col-4">
+        {{ $icon := resources.Get .Params.icon }}
+        <a class="display-block padding-top-6 padding-right-6 hover:bg-accent-cool-lighter" href="{{ .RelPermalink }}">
+          <img src="{{ $icon.RelPermalink }}" class="width-15 margin-bottom-1 display-block" aria-hidden="true"
+            role="img" />
+          <span>{{ .Title }}</span>
+        </a>
       </li>
       {{ end }}
     </ul>
   </section>
+  <div class="usa-prose padding-y-6">
+    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+    {{.Content}}
+  </div>
 </main>
 {{ end }}
