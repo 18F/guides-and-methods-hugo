@@ -1,6 +1,7 @@
 ---
 title: "Section6"
 type: landing
+hero: true
 icon: "images/user-interviews-love--c.svg"
 ---
 

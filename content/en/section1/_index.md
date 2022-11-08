@@ -1,6 +1,7 @@
 ---
 title: "Section1"
 type: landing
+hero: true
 icon: "images/accessibility.svg"
 ---
 
