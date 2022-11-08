@@ -1,6 +1,7 @@
 ---
 title: "Section5"
 type: landing
+hero: true
 icon: "images/design-methods.svg"
 ---
 

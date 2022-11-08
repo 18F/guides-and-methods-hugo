@@ -1,6 +1,7 @@
 ---
 title: "Section4"
 type: landing
+hero: true
 icon: "images/derisking.svg"
 ---
 

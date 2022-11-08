@@ -9,7 +9,7 @@ title: "Page with images"
 
 ## Figure shortcode
 
-{{< figure class="width-tablet" src="../assets/images/built-to-grow--alt.jpg" title="Steve Francia" >}}
+{{< figure class="width-tablet" src="../assets/images/built-to-grow--alt.jpg" title="Built to grow" alt="Built to grow" >}}
 
 ## Media card shortcode
 

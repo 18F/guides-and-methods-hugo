@@ -1,6 +1,7 @@
 ---
 title: "Section2"
 type: landing
+hero: true
 icon: "images/agile.svg"
 ---
 

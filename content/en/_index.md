@@ -3,6 +3,7 @@ title: "Guides"
 description: "Principles and standards that shape our work"
 theme_version: '2.8.2'
 type: list
+hero: true
 cascade:
   featured_image: ''
 abstract: "18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day work."
