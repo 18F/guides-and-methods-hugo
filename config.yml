@@ -13,5 +13,9 @@ languages:
     languageName: Français
     title: Guides et méthodes 18F
     weight: 1
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.4
 Params:
   shortTitle: Guides
