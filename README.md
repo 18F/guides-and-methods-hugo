@@ -25,10 +25,23 @@ Anyone that would like to help Dockerize this setup, please contact Claire Annan
 1. Start the built-in live server via `hugo server`.
 1. Visit default URL: localhost:1313
 
-## Create new content 
+### Create new content 
 
 1. Add single files with `hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>`.
 1. Add a new guide (aka section) with `hugo new --kind section-bundle <SECTIONNAME>`
+
+## Getting Started (content managers)
+
+In this GitHub repository, find content organized by Section under `content/en`, or use the GitHub search feature to find the file. All content files end in .md for Markdown. To edit a page, 
+
+1. click on the edit pencil.
+2. Make content changes. The content supports plain text and [Commonmark](https://commonmark.org/help/) flavored Markdown.
+3. Attach files by dragging and dropping, selecting or pasting them.
+4. Save your changes by clicking the Commit changes button. This will create a new branch for this commit to start a pull request.
+5. The `guides-admins` group (hey, that's us!) is set as the default reviewers.
+6. Preview your changes using the cloud.gov Pages preview link.
+
+Keep watching this repo for Content Management System tests. Let us know if you'd like to participate!
 
 ## Architectural Decision Records
 
