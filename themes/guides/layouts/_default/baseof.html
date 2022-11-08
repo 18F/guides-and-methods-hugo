@@ -13,7 +13,7 @@
         {{- partialCached "footer.html" . -}}
         {{- partialCached "identifier.html" . -}}
     </body>
-    {{ $script := resources.Get "/uswds/dist/js/uswds.min.js" }}
+    {{ $script := resources.Get "/uswds/dist/js/uswds.min.js" | resources.Fingerprint }}
     <script src="{{ $script.Permalink }}"></script>
 
 </html>
