@@ -43,6 +43,14 @@ In this GitHub repository, find content organized by Section under `content/en`,
 
 Keep watching this repo for Content Management System tests. Let us know if you'd like to participate!
 
+## Accessibility
+
+Hopefully you already have pa11y-ci running globally! Hugo generates a default sitemap for each language out of the box. Let pa11y-ci check all the URLs in the sitemap with the following command:
+
+```
+pa11y-ci -s http://localhost:1313/en/sitemap.xml --sitemap-find "//localhost:1313" --sitemap-replace "http://localhost:1313/" 
+```
+
 ## Architectural Decision Records
 
 Check out our ADR directory (just [one so far](https://github.com/18F/guides-and-methods-hugo/pull/3#event-7726496797)) for a history of architectural decisions!
