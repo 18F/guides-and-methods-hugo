@@ -1,0 +1,12 @@
+<!-- This partial uses the beta USWDS pattern: Select a Language -->
+{{ if .IsTranslated }}
+<div class="grid-container">
+  <ul class="add-list-reset text-right">
+    {{ range .Translations }}
+    <li class="">
+      <a class="usa-button font-sans-3xs" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end}}
+  </ul>
+</div>
+{{ end }}
