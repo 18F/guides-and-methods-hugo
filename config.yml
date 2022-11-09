@@ -7,12 +7,12 @@ languages:
     contentDir: content/en
     languageName: English
     title: 18F Guides and Methods
-    weight: 2
-  fr:
-    contentDir: content/fr
-    languageName: Français
-    title: Guides et méthodes 18F
     weight: 1
+  es:
+    contentDir: content/es
+    languageName: Español
+    title: Guías y Métodos 18F
+    weight: 2
 sitemap:
   changefreq: monthly
   filename: sitemap.xml

@@ -5,6 +5,8 @@
     <body>
         {{- partialCached "site-alert.html" . -}}
         {{- partialCached "banner.html" . -}}
+        {{- partial "language-switcher.html" . -}}
+
         {{- partial "header.html" . -}}
         {{- partial "hero.html" . -}}
         <div id="content" class="grid-container">
