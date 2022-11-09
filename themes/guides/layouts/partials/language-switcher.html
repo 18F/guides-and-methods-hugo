@@ -4,7 +4,8 @@
   <ul class="add-list-reset text-right">
     {{ range .Translations }}
     <li class="">
-      <a class="usa-button font-sans-3xs" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+      <a class="usa-button font-sans-3xs" href="{{ .RelPermalink }}" role=”button” lang="{{ .Lang }}"
+        xml:lang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
     </li>
     {{ end}}
   </ul>
