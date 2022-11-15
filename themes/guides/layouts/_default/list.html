@@ -13,5 +13,18 @@
       {{ end }}
     </ul>
   </section>
+  <section>
+    It can also display nested sections, dynamically derived from the content organization structure...
+    <ul>
+      {{ range .Paginator.Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <section>
+    Or categories, added manually by page...
+  </section>
 </article>
 {{ end }}
