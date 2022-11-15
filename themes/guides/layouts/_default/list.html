@@ -5,7 +5,7 @@
     {{- .Content -}}
   </section>
   <section>
-    <ul>
+    <ul class="usa-list">
       {{ range .Paginator.Pages }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -16,8 +16,9 @@
 
   {{ if .Sections }}
   <section>
-    It can also display nested sections, dynamically derived from the content organization structure...
-    <ul>
+    <h2>Nested Sections</h2>
+    <p>It can also display nested sections, dynamically derived from the content organization structure...</p>
+    <ul class="usa-list">
       {{ range .Sections }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -29,7 +30,8 @@
 
 
   <section>
-    Or categories, added manually by page...
+    <h2>Tags</h2>
+    Or by tags, added manually by page...
   </section>
 </article>
 {{ end }}
