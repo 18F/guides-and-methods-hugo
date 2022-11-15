@@ -1,7 +1,5 @@
 ---
-title: "Breadcrumb page"
-page: top
-breadcrumb: true
+title: "Sidenav Page"
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._
