@@ -3,9 +3,9 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="-logo">
-        <em class="usa-logo__text"><a href="{{ .Site.BaseURL }}" title="Home">Logo</a></em>
+        <em class="usa-logo__text"><a href="{{ .Site.BaseURL }}" title="Home">{{ i18n "logo" }}</a></em>
       </div>
-      <button type="button" class="usa-menu-btn">Menu</button>
+      <button type="button" class="usa-menu-btn">{{ i18n "menu" }}</button>
     </div>
     {{ partial "topnav.html" . }}
     {{ partial "search.html" . }}

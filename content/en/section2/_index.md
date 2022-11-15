@@ -2,6 +2,7 @@
 title: "Section2"
 type: landing
 hero: true
+breadcrumb: true
 icon: "images/agile.svg"
 ---
 

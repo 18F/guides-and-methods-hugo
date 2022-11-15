@@ -18,4 +18,5 @@ sitemap:
   filename: sitemap.xml
   priority: 0.4
 Params:
-  shortTitle: Guides
+  shortTitle: Sections
+  uswdsURL: https://designsystem.digital.gov/
