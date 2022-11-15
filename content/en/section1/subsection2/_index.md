@@ -1,5 +1,5 @@
 ---
-title: "Subsection"
+title: "Nested section 2"
 type: page
 ---
 
