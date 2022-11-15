@@ -50,3 +50,6 @@ other = "{{ .Name }} page"
 
 [translations]
 other = "Languages"
+
+[search]
+other = "Search"

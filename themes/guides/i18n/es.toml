@@ -42,3 +42,6 @@ other = "{{ .Name }} pagina"
 
 [translations]
 other = "Traducciones"
+
+[search]
+other = "Busca"
