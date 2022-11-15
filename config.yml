@@ -19,3 +19,4 @@ sitemap:
   priority: 0.4
 Params:
   shortTitle: Guides
+  uswdsURL: https://designsystem.digital.gov/
