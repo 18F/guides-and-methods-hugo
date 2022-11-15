@@ -16,12 +16,15 @@
 
   {{ if .Sections }}
   <section>
-    <h2>Nested Sections</h2>
-    <p>It can also display nested sections, dynamically derived from the content organization structure...</p>
-    <ul class="usa-list">
+    <ul class="usa-list usa-list--unstyled">
       {{ range .Sections }}
       <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}" class="usa-button usa-button usa-button--outline">{{ .Title }}</a>
+        <ul class="margin-bottom-2">
+          {{ range .Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
       </li>
       {{ end }}
     </ul>
