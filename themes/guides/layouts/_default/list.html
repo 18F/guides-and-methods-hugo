@@ -1,7 +1,6 @@
 {{ define "main" }}
-<article class="pa3 pa4-ns nested-copy-line-height">
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" |
-    default "mid-gray" }}">
+<article class="">
+  <section class="">
     {{- .Content -}}
   </section>
   <section>
@@ -13,11 +12,12 @@
       {{ end }}
     </ul>
   </section>
-
+</article>
+<article class="grid-row">
   {{ if .Sections }}
-  <section>
+  {{ range .Sections }}
+  <section class="grid-col">
     <ul class="usa-list usa-list--unstyled">
-      {{ range .Sections }}
       <li>
         <a href="{{ .RelPermalink }}" class="usa-button usa-button usa-button--outline">{{ .Title }}</a>
         <ul class="margin-bottom-2">
@@ -26,15 +26,9 @@
           {{ end }}
         </ul>
       </li>
-      {{ end }}
     </ul>
   </section>
   {{ end }}
-
-
-  <section>
-    <h2>Tags</h2>
-    Or by tags, added manually by page...
-  </section>
+  {{ end }}
 </article>
 {{ end }}
