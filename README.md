@@ -7,12 +7,13 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 * It's on [cloud.gov Pages](https://pages.cloud.gov/sites/1253/builds) 
 * Flexible layout templates
+* Dynamic navigation
 * Section specific themes
 * Page bundle archetypes
 * Improved performance
 * Sample governance workflow
 * Sample content management workflow
-* Multilingual support using USWDS 3 Patterns
+* Multilingual support using [USWDS 3 Patterns](https://designsystem.digital.gov/patterns/select-a-language/two-languages/)
 
 ## Getting Started (developers)
 
