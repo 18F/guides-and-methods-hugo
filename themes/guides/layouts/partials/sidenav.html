@@ -1,0 +1,64 @@
+<!-- <aside>
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.sidenav }}
+    {{ if .HasChildren }}
+    <li class="{{ if $currentPage.HasMenuCurrent " sidenav" . }}active{{ end }}">
+      <a href="#">
+        {{ .Pre }}
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    <ul class="sub-menu">
+      {{ range .Children }}
+      <li class="{{ if $currentPage.IsMenuCurrent " sidenav" . }}active{{ end }}">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <li>
+      <a href="{{ .URL }}">
+        {{ .Pre }}hi
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{ end }}
+    {{ end }}
+    <li>
+      <a href="#" target="_blank">Hardcoded Link 1</a>
+    </li>
+    <li>
+      <a href="#" target="_blank">Hardcoded Link 2</a>
+    </li>
+  </ul>
+</aside> -->
+<nav aria-label="Side navigation,," class="tablet:grid-col-3 margin-top-4">
+  <ul class="usa-sidenav">
+    {{ with .Site.GetPage  "section" .Section }}
+    <li class="usa-sidenav__item">
+      <a href="{{ .RelPermalink }}" class="text-bold">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ range where site.RegularPages "Section" .Section }}
+    <li class="usa-sidenav__item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+
+    <!-- <li class="usa-sidenav__item">
+      <a href="javascript:void(0);" class="usa-current">Current page</a>
+      <ul class="usa-sidenav__sublist">
+        <li class="usa-sidenav__item">
+          <a href="javascript:void(0);">Child link</a>
+        </li>
+        <li class="usa-sidenav__item">
+          <a href="javascript:void(0);">Child link</a>
+        </li>
+        <li class="usa-sidenav__item">
+          <a href="javascript:void(0);" class="usa-current">Child link</a>
+        </li>
+      </ul>
+    </li> -->
+  </ul>
+</nav>

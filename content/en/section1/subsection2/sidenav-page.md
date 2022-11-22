@@ -1,5 +1,6 @@
 ---
 title: "Sidenav Page"
+layout: side
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._

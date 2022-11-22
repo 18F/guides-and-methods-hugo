@@ -1,5 +1,6 @@
 ---
 title: "Sidenav Page"
+layout: side
 page: side
 ---
 
