@@ -1,3 +1,25 @@
+<nav aria-label="Side navigation,," class="tablet:grid-col-3 margin-top-4">
+  <ul class="usa-sidenav">
+    {{ range (where site.Pages "Section" .Section) }}
+    {{ if .IsSection}} <!-- is a section and not a landing page -->
+    <li class="usa-sidenav__item">
+      <a href="{{ .RelPermalink }}" class="text-bold">{{ .Title }} - {{ .Type }}</a>
+    </li>
+    <ul class="usa-sidenav__sublist">
+      {{ range .RegularPagesRecursive }}
+      <li class="usa-sidenav__item">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <li class="usa-sidenav__item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</nav>
 <!-- <aside>
   <ul>
     {{ $currentPage := . }}
@@ -33,32 +55,3 @@
     </li>
   </ul>
 </aside> -->
-<nav aria-label="Side navigation,," class="tablet:grid-col-3 margin-top-4">
-  <ul class="usa-sidenav">
-    {{ with .Site.GetPage  "section" .Section }}
-    <li class="usa-sidenav__item">
-      <a href="{{ .RelPermalink }}" class="text-bold">{{ .Title }}</a>
-    </li>
-    {{ end }}
-    {{ range where site.RegularPages "Section" .Section }}
-    <li class="usa-sidenav__item">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-
-    <!-- <li class="usa-sidenav__item">
-      <a href="javascript:void(0);" class="usa-current">Current page</a>
-      <ul class="usa-sidenav__sublist">
-        <li class="usa-sidenav__item">
-          <a href="javascript:void(0);">Child link</a>
-        </li>
-        <li class="usa-sidenav__item">
-          <a href="javascript:void(0);">Child link</a>
-        </li>
-        <li class="usa-sidenav__item">
-          <a href="javascript:void(0);" class="usa-current">Child link</a>
-        </li>
-      </ul>
-    </li> -->
-  </ul>
-</nav>
