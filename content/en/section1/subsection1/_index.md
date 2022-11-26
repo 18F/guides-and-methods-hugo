@@ -1,5 +1,5 @@
 ---
-title: "Nested section 1"
+title: "Nested section a"
 type: page
 breadcrumb: true
 ---
