@@ -65,3 +65,6 @@ other = "This is a beta site."
 
 [siteAlertLink]
 other = "Please visit [18F Guides](https://18f.gsa.gov/guides/) for the live site."
+
+[skip]
+other = "Skip to main content"

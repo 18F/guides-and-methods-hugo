@@ -1,10 +1,8 @@
-{{ if .Params.breadcrumb }}
 <nav class="usa-breadcrumb grid-container" aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
     {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
   </ol>
 </nav>
-{{ end }}
 
 {{ define "breadcrumbnav" }}
 {{ if .p1.Parent }}

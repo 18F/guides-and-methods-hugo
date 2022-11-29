@@ -2,8 +2,10 @@
 {{ define "main" }}
 
 <div class="grid-row grid-gap">
+  {{ if .Params.breadcrumb }}
   {{- partial "sidenav.html" . -}}
-  <article class="tablet:grid-col-9">
+  {{ end }}
+  <article class="tablet:grid-col-9 {{ if .Params.inpagenav }}usa-in-page-nav-container{{ end }}">
     <header>
       <h1 class="">
         {{ .Title }}
@@ -12,6 +14,9 @@
     <div class="usa-prose">
       {{ .Content }}
     </div>
+    {{ if .Params.inpagenav }}
+    {{- partial "inpagenav.html" . -}}
+    {{ end }}
   </article>
 </div>
 {{ end }}

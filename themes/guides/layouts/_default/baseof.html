@@ -3,6 +3,7 @@
     {{- partialCached "head.html" . -}}
 
     <body>
+        {{- partialCached "skip-link.html" . -}}
         {{- partialCached "site-alert.html" . -}}
         {{- partialCached "banner.html" . -}}
         {{- partial "language-switcher.html" . -}}
@@ -10,9 +11,9 @@
         {{- partial "header.html" . -}}
         {{- partial "hero.html" . -}}
         {{- partial "breadcrumb.html" . -}}
-        <div id="content" class="grid-container">
+        <main id="main-content" class="grid-container">
             {{- block "main" . }}{{- end }}
-        </div>
+        </main>
         {{- partialCached "footer.html" . -}}
         {{- partialCached "identifier.html" . -}}
     </body>
