@@ -14,7 +14,7 @@
       {{ range where .Sections "Type" "==" "landing" }}
       <li class="grid-col-6 tablet:grid-col-4">
         {{ $icon := resources.Get .Params.icon }}
-        <a class="display-block padding-top-6 padding-right-6 hover:bg-accent-cool-lighter" href="{{ .RelPermalink }}">
+        <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
           <img src="{{ $icon.RelPermalink }}" class="width-15 margin-bottom-1 display-block" aria-hidden="true"
             role="img" />
           <span>{{ .Title }}</span>
