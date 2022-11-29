@@ -1,0 +1,13 @@
+<nav aria-label="Side navigation,," class="tablet:grid-col-3 margin-top-4">
+  <ul class="usa-sidenav">
+    {{ $currentPage := . }}
+    {{ range where (where site.Pages "Section" .Section) "IsSection" true  }}
+    <!-- grab all pages in current section -->
+    <li class="usa-sidenav__item text-bold"><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ range .Pages }}
+    <li class="usa-sidenav__item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</nav>

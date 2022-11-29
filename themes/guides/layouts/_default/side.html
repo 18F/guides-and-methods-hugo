@@ -1,0 +1,17 @@
+{{ define "header" }}{{ partial "header.html" . }}{{ end }}
+{{ define "main" }}
+
+<div class="grid-row grid-gap">
+  {{- partial "sidenav.html" . -}}
+  <article class="tablet:grid-col-9">
+    <header>
+      <h1 class="">
+        {{ .Title }}
+      </h1>
+    </header>
+    <div class="usa-prose">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ end }}

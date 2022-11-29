@@ -17,6 +17,7 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.4
+sectionPagesMenu: sidenav
 Params:
   shortTitle: Sections
   uswdsURL: https://designsystem.digital.gov/

@@ -1,6 +1,6 @@
 ---
-title: "Wide Page"
-type: wide
+title: "Inline Navigation Page"
+type: inline
 ---
 
 Logo variations (PNG, SVG)
