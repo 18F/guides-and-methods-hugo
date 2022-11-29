@@ -68,3 +68,6 @@ other = "Please visit [18F Guides](https://18f.gsa.gov/guides/) for the live sit
 
 [skip]
 other = "Skip to main content"
+
+[inPageNav]
+other = "On this page"

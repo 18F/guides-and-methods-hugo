@@ -60,3 +60,6 @@ other = "Visite [las guías 18F](https://18f.gsa.gov/guides/) para ver el sitio 
 
 [skip]
 other = "Saltar al contenido principal"
+
+[inPageNav]
+other = "En esta página"
