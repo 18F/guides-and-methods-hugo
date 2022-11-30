@@ -1,20 +1,22 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-<div class="usa-alert usa-alert--warning">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">This is a {{ .Section }} page</h4>
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-<div class="flex-l mt2 mw8 center">
-  <article class="center cf pv5 ph3 ph4-ns mw7">
-    <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param " text_color" | default "mid-gray" }}">
-      {{ .Content }}
+<main aria-role="main" id="main-content" class="grid-container">
+  <div class="usa-alert usa-alert--warning">
+    <div class="usa-alert__body">
+      <h4 class="usa-alert__heading">This is a {{ .Section }} page</h4>
+      <p class="usa-alert__text">
+        Lorem ipsum dolor sit amet,
+        <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
+        elit, sed do eiusmod.
+      </p>
     </div>
-  </article>
-</div>
+  </div>
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <div class="">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+</main>
 {{ end }}

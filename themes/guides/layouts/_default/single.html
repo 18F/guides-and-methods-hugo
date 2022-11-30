@@ -1,7 +1,7 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-<div class="flex-l mt2 mw8 center">
-  <article class="center cf pv5 ph3 ph4-ns mw7">
+<main id="main-content" class="grid-container">
+  <article class="">
     <header>
       <h1 class="f1">
         {{ .Title }}
@@ -11,5 +11,5 @@
       {{ .Content }}
     </div>
   </article>
-</div>
+</main>
 {{ end }}

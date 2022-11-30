@@ -3,16 +3,20 @@
     {{- partialCached "head.html" . -}}
 
     <body>
+        {{- partialCached "skip-link.html" . -}}
         {{- partialCached "site-alert.html" . -}}
         {{- partialCached "banner.html" . -}}
         {{- partial "language-switcher.html" . -}}
-
         {{- partial "header.html" . -}}
         {{- partial "hero.html" . -}}
+
+        {{ if .Params.breadcrumb }}
         {{- partial "breadcrumb.html" . -}}
-        <div id="content" class="grid-container">
-            {{- block "main" . }}{{- end }}
-        </div>
+        {{ end }}
+
+        {{- block "main" . }}
+        {{- end }}
+
         {{- partialCached "footer.html" . -}}
         {{- partialCached "identifier.html" . -}}
     </body>
