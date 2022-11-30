@@ -1,34 +1,36 @@
 {{ define "main" }}
-<article class="">
-  <section class="">
-    {{- .Content -}}
-  </section>
-  <section>
-    <ul class="usa-list">
-      {{ range .Paginator.Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </section>
-</article>
-<article class="grid-row">
-  {{ if .Sections }}
-  {{ range .Sections }}
-  <section class="grid-col">
-    <ul class="usa-list usa-list--unstyled">
-      <li>
-        <a href="{{ .RelPermalink }}" class="usa-button usa-button usa-button--outline">{{ .Title }}</a>
-        <ul class="margin-bottom-2">
-          {{ range .Pages }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </li>
-    </ul>
-  </section>
-  {{ end }}
-  {{ end }}
-</article>
+<main aria-role="main" id="main-content" class="grid-container">
+  <article class="">
+    <section class="">
+      {{- .Content -}}
+    </section>
+    <section>
+      <ul class="usa-list">
+        {{ range .Paginator.Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+  </article>
+  <article class="grid-row">
+    {{ if .Sections }}
+    {{ range .Sections }}
+    <section class="grid-col">
+      <ul class="usa-list usa-list--unstyled">
+        <li>
+          <a href="{{ .RelPermalink }}" class="usa-button usa-button usa-button--outline">{{ .Title }}</a>
+          <ul class="margin-bottom-2">
+            {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+      </ul>
+    </section>
+    {{ end }}
+    {{ end }}
+  </article>
+</main>
 {{ end }}

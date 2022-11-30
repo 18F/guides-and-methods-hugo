@@ -1,20 +1,25 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-
-<div class="grid-row grid-gap">
-  {{- partial "sidenav.html" . -}}
-  <article class="tablet:grid-col-9">
-    <header>
-      <h1 class="">
-        {{ .Title }}
-      </h1>
-    </header>
-    <div class="usa-prose">
-      {{ .Content }}
+<div class="usa-in-page-nav-container">
+  <aside class="usa-in-page-nav" data-title-text="{{ i18n " inPageNav" }}" data-title-heading-level="h4"
+    data-scroll-offset="0" data-root-margin="0px 0px 0px 0px" data-threshold="1"></aside>
+  <main aria-role="main" id="main-content" class="grid-container">
+    <div class="grid-row grid-gap">
+      {{- partial "sidenav.html" . -}}
+      <article class="tablet:grid-col">
+        <header>
+          <h1 class="">
+            {{ .Title }}
+          </h1>
+        </header>
+        <div class="usa-prose">
+          {{ .Content }}
+        </div>
+        {{ if .Params.inpagenav }}
+        {{- partial "inpagenav.html" . -}}
+        {{ end }}
+      </article>
     </div>
-    {{ if .Params.inpagenav }}
-    {{- partial "inpagenav.html" . -}}
-    {{ end }}
-  </article>
+  </main>
 </div>
 {{ end }}

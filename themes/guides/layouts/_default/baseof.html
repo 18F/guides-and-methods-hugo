@@ -14,9 +14,9 @@
         {{- partial "breadcrumb.html" . -}}
         {{ end }}
 
-        <main id="main-content" class="grid-container">
-            {{- block "main" . }}{{- end }}
-        </main>
+        {{- block "main" . }}
+        {{- end }}
+
         {{- partialCached "footer.html" . -}}
         {{- partialCached "identifier.html" . -}}
     </body>
