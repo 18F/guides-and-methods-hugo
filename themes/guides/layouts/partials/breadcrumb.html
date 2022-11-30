@@ -17,6 +17,9 @@
 {{ else }}
 <li class="usa-breadcrumb__list-item" {{ if eq .p1 .p2 }} aria-current="page" {{ end }}>
   <a class="usa-breadcrumb__link" href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18">
+    <path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+  </svg>
 </li>
 {{ end }}
 {{ end }}
