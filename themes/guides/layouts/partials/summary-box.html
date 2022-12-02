@@ -1,0 +1,21 @@
+<div class="usa-summary-box margin-top-6" role="region" aria-labelledby="summary-box-key-information">
+  <div class="usa-summary-box__body">
+    <h3 class="usa-summary-box__heading" id="summary-box-key-information">
+      Page information
+    </h3>
+    <div class="usa-summary-box__text">
+      <ul class="usa-list">
+        <li>Wordcount: {{ .WordCount }}</li>
+        <li>ReadingTime: {{ i18n "readingTime" .ReadingTime }}</li>
+        <li>Aliases: {{ .Aliases }}</li>
+        <li>BundleType: {{ .BundleType }}</li>
+        <li>Publish date: {{ .PublishDate | time.Format ":date_long" }}</li>
+        <li>Last modified: {{ .Lastmod | time.Format ":date_long" }}</li>
+        <li>Sort weight: {{ .Weight }}</li>
+        <li>Is translated: {{ .IsTranslated }}</li>
+        <li>Previous page: {{ with .PrevInSection }}{{ .Permalink }}{{ end }} </li>
+        <li>Next page: {{ with .NextInSection }}{{ .Permalink }}{{ end }} </li>
+      </ul>
+    </div>
+  </div>
+</div>
