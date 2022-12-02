@@ -5,9 +5,9 @@
       {{- .Content -}}
     </section>
     <section>
-      <ul class="usa-list">
+      <ul class="usa-list usa-list--unstyled">
         {{ range .Paginator.Pages }}
-        <li>
+        <li class="padding-bottom-1">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
         {{ end }}
@@ -18,15 +18,11 @@
     {{ if .Sections }}
     {{ range .Sections }}
     <section class="grid-col">
-      <ul class="usa-list usa-list--unstyled">
-        <li>
-          <a href="{{ .RelPermalink }}" class="usa-button usa-button usa-button--outline">{{ .Title }}</a>
-          <ul class="margin-bottom-2">
-            {{ range .Pages }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}
-          </ul>
-        </li>
+      <h2 class="text-bold">{{ .Title }}</h2>
+      <ul class="margin-bottom-2 usa-list usa-list--unstyled">
+        {{ range .Pages }}
+        <li class="padding-bottom-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
       </ul>
     </section>
     {{ end }}
