@@ -1,6 +1,7 @@
 ---
 title: "Sidenav Page"
-layout: side
+sidenav: true
+inpagenav: true
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._
