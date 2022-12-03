@@ -1,6 +1,8 @@
 ---
 title: "Breadcrumb page"
 breadcrumb: true
+sidenav: true
+inpagenav: true
 ---
 
 This page displays the breadcrumb.
