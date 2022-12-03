@@ -1,6 +1,7 @@
 ---
 title: "Page With Code"
-type: page
+sidenav: true
+inpagenav: true
 ---
 
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi fuga sapiente cumque dicta tempora itaque. Possimus veniam placeat, odit, iure at dicta excepturi eveniet ipsam quisquam aspernatur minima enim temporibus!

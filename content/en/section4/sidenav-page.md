@@ -1,6 +1,7 @@
 ---
 title: "Sidenav Page"
-layout: side
+sidenav: true
+inpagenav: true
 page: side
 ---
 

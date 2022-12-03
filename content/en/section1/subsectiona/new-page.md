@@ -2,7 +2,8 @@
 title: "New page"
 breadcrumb: true
 inpagenav: true
-layout: side
+sidenav: true
+inpagenav: true
 ---
 
 ## Heading h2
@@ -34,3 +35,7 @@ The man sat huddled up in his chair, with his head sunk upon his breast, like on
 ## Last h2
 
 The daughter was of a good, amiable disposition, but affectionate and warm-hearted in her ways, so that it was evident that with her fair personal advantages, and her little income, she would not be allowed to remain single long. Now her marriage would mean, of course, the loss of a hundred a year, so what does her stepfather do to prevent it? He takes the obvious course of keeping her at home and forbidding her to seek the company of people of her own age. But soon he found that that would not answer forever. She became restive, insisted upon her rights, and finally announced her positive intention of going to a certain ball. What does her clever stepfather do then? He conceives an idea more creditable to his head than to his heart. With the connivance and assistance of his wife he disguised himself, covered those keen eyes with tinted glasses, masked the face with a moustache and a pair of bushy
+
+## Another section
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptate ratione ab vitae quis recusandae ullam ea placeat, totam officiis harum qui perspiciatis. Aperiam esse labore dignissimos beatae impedit adipisci?
