@@ -5,6 +5,9 @@
   <div class="usa-footer__primary-section">
     <div class="usa-footer__primary-container grid-row">
       <div class="mobile-lg:grid-col-8">
+        <div class="grid-col-auto">
+          <p class="usa-footer__logo-heading">&lt;Section specific links&gt;</p>
+        </div>
         <nav class="usa-footer__nav" aria-label="Footer navigation,">
           <ul class="grid-row grid-gap">
             <li class="
@@ -60,10 +63,11 @@
     <div class="grid-container">
       <div class="usa-footer__logo grid-row grid-gap-2">
         <div class="grid-col-auto">
-          <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
+          <img class="usa-footer__logo-img" src="{{ .Site.Params.uswdsURL }}/assets/img/logo-img.png" alt="" />
         </div>
         <div class="grid-col-auto">
-          <p class="usa-footer__logo-heading">&lt;Agency Contact Center&gt;</p>
+          <p>{{ i18n "footerMaintained" | markdownify }}</p>
+          <p>{{ i18n "footerEmail" }} {{ .Site.Params.org_secondary_email}}</p>
         </div>
       </div>
     </div>

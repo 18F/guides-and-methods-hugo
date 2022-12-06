@@ -71,3 +71,9 @@ other = "Skip to main content"
 
 [inPageNav]
 other = "On this page"
+
+[footerMaintained]
+other = "This project is maintained by [18F](https://18f.gsa.gov/)"
+
+[footerEmail]
+other = "Have questions or would like to contact us? Email us at"
