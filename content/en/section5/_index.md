@@ -1,11 +1,12 @@
 ---
 title: "Section5"
+description: A collection of tools to bring human-centered design into your project.
 type: landing
-layout: fancy
 hero: true
+hero_color: "bg-ink"
 cascade:
   icon: "images/design-methods.svg"
   email: "section5@gsa.gov"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate id dignissimos ad reprehenderit est a cum sit assumenda, illum quibusdam mollitia vitae dolor inventore, minus hic. Ea accusantium quae saepe.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum repellendus nostrum ad aliquam illum non dolores quidem perspiciatis vero culpa tempora dolorem, ullam eum incidunt quae corrupti neque tenetur?

@@ -1,7 +1,7 @@
 {{ if .Params.hero }}
 <section>
-  <div class="padding-y-2 bg-primary-darker">
-    <div class="grid-container">
+  <div class="padding-y-2 {{ cond (ne .Params.hero_color nil) .Params.hero_color " bg-primary-darker" }}">
+    <div class=" grid-container">
       <h1 class="font-sans-3xl text-accent-cool">
         {{ if .IsHome }}
         {{ .Language.Title }}
