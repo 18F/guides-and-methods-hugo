@@ -9,7 +9,7 @@
         <li>Breadcrumb: {{ cond (ne .Params.breadcrumb nil) "on" "off" }}</li>
         <li>Side navigation: {{ cond (ne .Params.sidenav nil) "on" "off" }}</li>
         <li>In-page Navigation: {{ cond (ne .Params.inpagenav nil) "on" "off" }}</li>
-        <li>Wordcount: {{ .WordCount }}</li>
+        <li>Wordcount: {{ i18n "wordCount" .WordCount }}</li>
         <li>ReadingTime: {{ i18n "readingTime" .ReadingTime }}</li>
         <li>Aliases: {{ .Aliases }}</li>
         <li>BundleType: {{ .BundleType }}</li>

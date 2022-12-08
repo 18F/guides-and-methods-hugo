@@ -2,9 +2,9 @@
   <div class="grid-container usa-footer__return-to-top margin-y-6">
     <a href="#">{{ i18n "returnToTop" }}</a>
   </div>
-  {{ if not .IsHome }}
-  {{ .Scratch.Set "githubLink" .RelPermalink }}
+  {{ $githubLink := .RelPermalink }}
   {{ with .FirstSection }}
+  {{ if .Parent }} {{/* Top level pages don't have a parent, so they won't render below */}}
   <div class="usa-footer__primary-section padding-y-3">
     <div class="usa-footer__primary-container grid-row">
       <div class="grid-col mobile-lg:grid-col-8 padding-right-6">
@@ -20,7 +20,7 @@
           </p>
           <p>
             Notice a bug or want to contribute?</p>
-          <a class="usa-button usa-button--outline" href="{{ .Scratch.Get " githubLink" }}">{{ i18n "improvePage" }}</a>
+          <a class="usa-button usa-button--outline" href="{{ $githubLink }}">{{ i18n "improvePage" }}</a>
         </address>
       </div>
     </div>
