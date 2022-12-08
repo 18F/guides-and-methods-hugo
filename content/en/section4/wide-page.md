@@ -1,6 +1,6 @@
 ---
 title: "Wide Page"
-type: wide
+tags: [accessibility, methods]
 ---
 
 Logo variations (PNG, SVG)
