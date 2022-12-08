@@ -1,5 +1,6 @@
 ---
 title: "Page With Prose"
+tags: [accessibility, UX, methods]
 ---
 
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi fuga sapiente cumque dicta tempora itaque. Possimus veniam placeat, odit, iure at dicta excepturi eveniet ipsam quisquam aspernatur minima enim temporibus!
