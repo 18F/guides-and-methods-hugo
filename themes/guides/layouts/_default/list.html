@@ -1,32 +1,26 @@
 {{ define "main" }}
 <main aria-role="main" id="main-content" class="grid-container">
-  <article class="">
-    <section class="">
-      {{- .Content -}}
-    </section>
-    <section>
-      <ul class="usa-list usa-list--unstyled">
-        {{ range .Paginator.Pages }}
-        <li class="padding-bottom-1">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
+  <article class="usa-prose">
+    <header>
+      <h1>{{.Title}}</h1>
+    </header>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
   </article>
-  <article class="grid-row">
-    {{ if .Sections }}
-    {{ range .Sections }}
-    <section class="grid-col">
-      <h2 class="text-bold">{{ .Title }}</h2>
-      <ul class="margin-bottom-2 usa-list usa-list--unstyled">
-        {{ range .Pages }}
-        <li class="padding-bottom-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      </ul>
-    </section>
+  <ul class="usa-list--unstyled">
+    <!-- Ranges through content/posts/*.md -->
+    <!-- Groups content according to content section. The ".Key" in this instance will be the section's title. -->
+    {{ range .Pages.GroupBy "Section" }}
+    <h3>{{ .Key }}</h3>
+    <ul class="usa-prose maxw-tablet">
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <p>{{ .Summary | truncate 200 }}</p>
+      </li>
+      {{ end }}
+    </ul>
     {{ end }}
-    {{ end }}
-  </article>
+  </ul>
 </main>
 {{ end }}
