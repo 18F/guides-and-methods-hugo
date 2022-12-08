@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main aria-role="main" id="main-content" class="grid-container">
+  <!-- Ranges through content/posts/*.md -->
+  <!-- Groups content according to content section. The ".Key" in this instance will be the section's title. -->
+  {{ range .Sections }}
+  <h2 class="margin-top-6">{{ .Title }}</h2>
+  <div class="grid-row grid-gap border-top">
+    <div class="grid-col grid-col-8 usa-prose padding-top-3">
+      <p> {{ .Summary }}
+      </p>
+    </div>
+    <div class="grid-col grid-col-4">
+      <h4>Content includes</h4>
+      <ul class="usa-list--unstyled">
+        {{ range first 3 .Pages }}
+        <li class="padding-bottom-1">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{end }}
+</main>
+{{ end }}

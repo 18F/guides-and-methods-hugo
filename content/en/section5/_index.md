@@ -1,6 +1,7 @@
 ---
 title: "Section5"
 type: landing
+layout: fancy
 hero: true
 cascade:
   icon: "images/design-methods.svg"
