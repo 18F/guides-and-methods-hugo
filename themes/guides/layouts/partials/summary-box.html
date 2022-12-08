@@ -17,13 +17,14 @@
         <li>Last modified: {{ .Lastmod | time.Format ":date_long" }}</li>
         <li>Sort weight: {{ .Weight }}</li>
         <li>Is translated: {{ .IsTranslated }}</li>
-        <li>Previous page: {{ with .PrevInSection }}{{ .Permalink }}{{ end }} </li>
-        <li>Next page: {{ with .NextInSection }}{{ .Permalink }}{{ end }} </li>
+        <li>Previous page: {{ with .PrevInSection }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }} </li>
+        <li>Next page: {{ with .NextInSection }} <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }} </li>
         <li>Tags:
           {{ range (.GetTerms "tags") }}
           <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
           {{ end }}
         </li>
+        <li>Summary: {{ .Summary }}</li>
       </ul>
     </div>
   </div>
