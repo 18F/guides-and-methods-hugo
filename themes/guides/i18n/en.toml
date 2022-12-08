@@ -17,7 +17,7 @@ other = "By"
 other = "What's in this {{ .Type }}"
 
 [related]
-other = "Related"
+other = "See also"
 
 [yourName]
 other = "Your Name"
