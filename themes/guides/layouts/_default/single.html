@@ -16,10 +16,11 @@
             {{ .Title }}
           </h1>
         </header>
-        <div class="usa-prose">
+        <div class="usa-prose margin-bottom-8">
           {{ .Content }}
         </div>
-        {{ partial "summary-box" .}}
+        {{ partial "related.html" . }}
+        {{ partial "summary-box" . }}
       </article>
     </div>
   </main>

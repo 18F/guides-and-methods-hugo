@@ -2,6 +2,7 @@
 title: "Sidenav Page"
 sidenav: true
 inpagenav: true
+tags: [UX, accessibility, research]
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._

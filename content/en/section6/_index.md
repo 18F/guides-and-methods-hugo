@@ -2,7 +2,9 @@
 title: "Section6"
 type: landing
 hero: true
-icon: "images/user-interviews-love--c.svg"
+cascade:
+  icon: "images/user-interviews-love--c.svg"
+  email: "section6@gsa.gov"
 ---
 
 Landing page for section6

@@ -1,17 +1,18 @@
+{{ $identifierlogo := resources.Get "images/gsa-logo-blue.svg" }}
 <div class="usa-identifier">
   <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,,,">
     <div class="usa-identifier__container">
       <div class="usa-identifier__logos">
-        <a href="javascript:void(0)" class="usa-identifier__logo"><img class="usa-identifier__logo-img"
-            src="/assets/img/circle-gray-20.svg" alt="&lt;Parent agency&gt; logo" role="img" /> </a><a
-          href="javascript:void(0);" class="usa-identifier__logo"><img class="usa-identifier__logo-img"
-            src="/assets/img/circle-gray-20.svg" alt="&lt;Other agency&gt; logo" role="img" /></a>
+        <a href="javascript:void(0)" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="{{ $identifierlogo.RelPermalink }}" alt="Parent agency logo"
+            role="img" />
+        </a>
       </div>
       <section class="usa-identifier__identity" aria-label="Agency description,,,">
-        <p class="usa-identifier__identity-domain">domain.gov</p>
+        <p class="usa-identifier__identity-domain">{{ .Site.Title }}</p>
         <p class="usa-identifier__identity-disclaimer">
-          An official website of the <a href="">&lt;Parent agency&gt;</a> and
-          the <a href="javascript:void(0)">&lt;Other agency&gt;</a>
+          An official website of the <a href="{{ .Site.Params.agency_url }}">{{ .Site.Params.agency }}</a> and
+          the <a href="{{ .Site.Params.org_primary_url }}">{{ .Site.Params.org_primary }}</a>
         </p>
       </section>
     </div>
@@ -20,25 +21,31 @@
     <div class="usa-identifier__container">
       <ul class="usa-identifier__required-links-list">
         <li class="usa-identifier__required-links-item">
-          <a href="javascript:void(0)" class="usa-identifier__required-link usa-link">About &lt;Parent shortname&gt;</a>
+          <a href="{{ .Site.Params.org_secondary_about }}" class="usa-identifier__required-link usa-link">About
+            {{ .Site.Params.agency_acronym }}</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">Accessibility support</a>
+          <a href="{{ .Site.Params.accessibility_url }}" class="usa-identifier__required-link usa-link">Accessibility
+            support</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">FOIA requests</a>
+          <a href="{{ .Site.Params.foia_request_url }}" class="usa-identifier__required-link usa-link">FOIA requests</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">No FEAR Act data</a>
+          <a href="{{ .Site.Params.no_fear_act_url }}" class="usa-identifier__required-link usa-link">No FEAR Act
+            data</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">Office of the Inspector General</a>
+          <a href="{{ .Site.Params.fraud_waste_abuse_url }}" class="usa-identifier__required-link usa-link">Office of
+            the Inspector General</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">Performance reports</a>
+          <a href="{{ .Site.Params.budget_performance_url }}" class="usa-identifier__required-link usa-link">Performance
+            reports</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="" class="usa-identifier__required-link usa-link">Privacy policy</a>
+          <a href="{{ .Site.Params.privacy_policy_url }}" class="usa-identifier__required-link usa-link">Privacy
+            policy</a>
         </li>
       </ul>
     </div>
@@ -47,9 +54,9 @@
     aria-label="U.S. government information and services,,,">
     <div class="usa-identifier__container">
       <div class="usa-identifier__usagov-description">
-        Looking for U.S. government information and services?
+        {{ .Site.Params.usagov_bio }}
       </div>
-      <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+      <a href=" {{ .Site.Params.usagov_url }}" class="usa-link">{{ .Site.Params.usagov_visit }}</a>
     </div>
   </section>
 </div>

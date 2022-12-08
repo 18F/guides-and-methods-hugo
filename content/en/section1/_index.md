@@ -3,7 +3,9 @@ title: "Section1"
 type: landing
 hero: true
 breadcrumb: true
-icon: "images/accessibility.svg"
+cascade:
+  icon: "images/accessibility.svg"
+  email: "section1@gsa.gov"
 ---
 
 This is the landing page for Section1 content.

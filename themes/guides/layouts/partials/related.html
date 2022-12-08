@@ -1,0 +1,17 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<aside class="border-top maxw-mobile">
+  <h3>{{ i18n "related" }}</h3>
+  <ul>
+    {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if .Params.icon }}
+      {{ $icon := resources.Get .Params.icon }}
+      <img class="maxw-4" src="{{ $icon.RelPermalink }}" alt="{{ .Section }}">
+      {{ end }}
+      <span class="usa-tag">{{ .Section }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</aside>
+{{ end }}

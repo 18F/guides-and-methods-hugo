@@ -1,6 +1,6 @@
 ---
-title: "Inline Navigation Page"
-type: inline
+title: "In-Page Navigation Page"
+inpagenav: true
 ---
 
 Logo variations (PNG, SVG)

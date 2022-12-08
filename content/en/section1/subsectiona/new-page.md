@@ -4,6 +4,7 @@ breadcrumb: true
 inpagenav: true
 sidenav: true
 inpagenav: true
+tags: [accessibility, methods]
 ---
 
 ## Heading h2

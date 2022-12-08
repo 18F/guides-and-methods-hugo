@@ -3,7 +3,9 @@ title: "Section3"
 type: landing
 hero: true
 breadcrumb: true
-icon: "images/content.svg"
+cascade:
+  icon: "images/content.svg"
+  email: "section3@gsa.gov"
 ---
 
 This is the landing page for Section3 content.
