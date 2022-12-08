@@ -27,6 +27,7 @@ Params:
   dap_subagency: 18F,TTS
   # Add search site handle to enable search
   search_site_handle:
+  # Site identifier vars
   site_email: 18F@gsa.gov
   agency: U.S. General Services Administration
   agency_acronym: GSA
@@ -51,5 +52,7 @@ Params:
   no_fear_act_url: "https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
   budget_performance_url: "https://www.gsa.gov/reference/reports/budget-performance"
   accessibility_url: "https://www.gsa.gov/website-information/accessibility-aids"
-  usagov_contact_url: "https://www.usa.gov/contact"
+  usagov_url: "https://www.usa.gov/"
+  usagov_bio: "Looking for U.S. government information and services?"
+  usagov_visit: "Visit USA.gov"
   privacy_policy_url: "https://www.gsa.gov/website-information/website-policies"
