@@ -17,7 +17,7 @@
         {{- block "main" . }}
         {{- end }}
 
-        {{- partialCached "footer.html" . -}}
+        {{- partial "footer.html" . -}}
         {{- partialCached "identifier.html" . -}}
     </body>
     {{ $script := resources.Get "/uswds/dist/js/uswds.min.js" | resources.Fingerprint }}
