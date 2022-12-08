@@ -5,9 +5,10 @@
     </h3>
     <div class="usa-summary-box__text">
       <ul class="usa-list">
-        <li>hero: {{ cond (ne .Params.hero nil) "on" "off" }}</li>
-        <li>sidenav: {{ cond (ne .Params.sidenav nil) "on" "off" }}</li>
-        <li>inpagenav: {{ cond (ne .Params.inpagenav nil) "on" "off" }}</li>
+        <li>Hero: {{ cond (ne .Params.hero nil) "on" "off" }}</li>
+        <li>Breadcrumb: {{ cond (ne .Params.breadcrumb nil) "on" "off" }}</li>
+        <li>Side navigation: {{ cond (ne .Params.sidenav nil) "on" "off" }}</li>
+        <li>In-page Navigation: {{ cond (ne .Params.inpagenav nil) "on" "off" }}</li>
         <li>Wordcount: {{ .WordCount }}</li>
         <li>ReadingTime: {{ i18n "readingTime" .ReadingTime }}</li>
         <li>Aliases: {{ .Aliases }}</li>
