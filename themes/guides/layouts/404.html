@@ -1,8 +1,10 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-<article class="center cf pv5 measure-wide-l">
-  <h1>
-    This is not the page you were looking for
-  </h1>
-</article>
+<main id="main-content" class="grid-container minh-mobile">
+  <article class="">
+    <h1>
+      {{ i18n "404" }}
+    </h1>
+  </article>
+</main>
 {{ end }}
