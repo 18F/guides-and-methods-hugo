@@ -83,3 +83,6 @@ other = "Return to top"
 
 [improvePage]
 other = "Improve this page"
+
+[404]
+other = "This is not the page you were looking for"

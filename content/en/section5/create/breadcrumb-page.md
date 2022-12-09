@@ -2,6 +2,7 @@
 title: "Breadcrumb page"
 page: top
 breadcrumb: true
+page_color: bg-secondary-dark
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._

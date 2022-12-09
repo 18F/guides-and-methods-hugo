@@ -1,19 +1,49 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-<main aria-role="main" id="main-content" class="grid-container">
-  <div class="usa-alert usa-alert--warning">
-    <div class="usa-alert__body">
-      <h4 class="usa-alert__heading">This is a {{ .Section }} page</h4>
-      <p class="usa-alert__text">
-        Lorem ipsum dolor sit amet,
-        <a class="usa-link" href="{{ .RelPermalink }}">consectetur adipiscing</a>
-        elit, sed do eiusmod.
-      </p>
-    </div>
-  </div>
-  <div class="flex-l mt2 mw8 center">
-    <article class="usa-prose">
-      {{ .Content }}
+{{ $pageColor := cond ( ne .Params.page_color nil ) .Params.page_color "bg-primary-light" }}
+<main aria-role="main" id="main-content" class="padding-y-6 {{ $pageColor }}">
+  <div class=" grid-container">
+    <article class="grid-row grid-gap bg-white border radius-lg padding-2 tablet:padding-3">
+      <div class="tablet:grid-col">
+        <h1>{{ .Title }}</h1>
+        <h2>What</h2>
+        <p>{{ .Params.what }}</p>
+        <h2>Why</h2>
+        <p>{{ .Params.why }}</p>
+      </div>
+      <div class="tablet:grid-col">
+        {{ if gt .WordCount 1 }}
+        {{ .Content }}
+        {{ else }}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, nulla deserunt ratione quo sequi dolorem
+        aut repellendus, praesentium tempora ad sit voluptatum quas fuga. Quaerat aliquam mollitia incidunt? Laudantium,
+        provident!
+        {{ end }}
+        <h2>Additional Resources</h2>
+        <ul>
+          {{ with .Params.resources }}
+          {{ range . }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+          {{ else }}
+          <li>This section is an array (bulleted list) of rich text.</li>
+          <li>Each item can include [links](http://google.com). The content is run through the `markdownify` filter.
+          </li>
+          <li>It can also include plain text or a combination of both.</li>
+          <li>This section is hidden from the print card.</li>
+          {{ end }}
+        </ul>
+        <h2>Considerations for use in government</h2>
+        {{ with .Params.considerations }}
+        {{ . | markdownify }}
+        {{ else }}
+        <p>This section supports multiple paragraphs of text.</p>
+        <p>
+          No HTML allowed! This content if also run through the `markdownify` filter.
+        </p>
+        <p>This section is also hidden from the print card.</p>
+        {{ end }}
+      </div>
     </article>
   </div>
 </main>

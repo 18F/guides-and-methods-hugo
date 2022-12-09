@@ -20,4 +20,3 @@ title: "Page with images"
   size="width-mobile"
   link_text="Call to action"
 >}}
-
