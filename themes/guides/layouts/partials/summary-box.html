@@ -5,6 +5,7 @@
     </h3>
     <div class="usa-summary-box__text">
       <ul class="usa-list">
+        <li>Link title: {{ .LinkTitle }}</li>
         <li>Hero: {{ cond (ne .Params.hero nil) "on" "off" }}</li>
         <li>Breadcrumb: {{ cond (ne .Params.breadcrumb nil) "on" "off" }}</li>
         <li>Side navigation: {{ cond (ne .Params.sidenav nil) "on" "off" }}</li>

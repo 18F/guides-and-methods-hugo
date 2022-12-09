@@ -1,6 +1,6 @@
 ---
 title: "Card Page"
-type: card
+
 ---
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ut dolor praesentium facere rerum aliquam minima rem eligendi aut fugit repellendus, illum tempore voluptate labore eum vel ullam nemo laboriosam!
