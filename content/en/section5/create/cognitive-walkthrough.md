@@ -18,6 +18,7 @@ No HTML allowed! This content if also run through the `markdownify` filter.
 \
 This section is also hidden from the print card."
 timeRequired: 30 minutes to one hour per person
+categories: "Buy better"
 tags: [UX, methods]
 ---
 

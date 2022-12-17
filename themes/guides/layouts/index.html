@@ -11,37 +11,31 @@
     {{ .Params.abstract }}
   </div>
 
-  <section class="maxw-tablet-lg">
+  <section class="maxw-tablet-lg font-sans-md">
     <h2>Content by category</h2>
-    <ul class="grid-row grid-gap add-list-reset">
-      {{ range where .Sections "Layout" "==" "landing" }}
-      <li class="grid-col-6 tablet:grid-col-4">
-        {{ $icon := resources.Get .Params.icon }}
-        <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
-          <span>{{ .Title }}</span>
-        </a>
+    <ul class="usa-list--unstyled display-inline-flex">
+      {{ range .Site.Taxonomies.categories }}
+      <li><a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{
+          .Count }})</a>
       </li>
       {{ end }}
     </ul>
   </section>
-  <section class="maxw-tablet-lg">
+  <section class="maxw-tablet-lg font-sans-md">
     <h2>Content by tags</h2>
-    <ul class="grid-row grid-gap add-list-reset">
-      {{ range where .Sections "Type" "==" "landing" }}
-      <li class="grid-col-6 tablet:grid-col-4">
-        {{ $icon := resources.Get .Params.icon }}
-        <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
-          <span>{{ .Title }}</span>
-        </a>
+    <ul class="usa-list--unstyled display-inline-flex">
+      {{ range .Site.Taxonomies.tags }}
+      <li><a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{
+          .Count }})</a>
       </li>
       {{ end }}
     </ul>
   </section>
 
-  <section class="maxw-tablet-lg">
+  <section class="maxw-tablet-lg font-sans-md">
     <h2>Content by section</h2>
     <ul class="grid-row grid-gap add-list-reset">
-      {{ range where .Sections "Type" "==" "landing" }}
+      {{ range where .Sections "Layout" "==" "landing" }}
       <li class="grid-col-6 tablet:grid-col-4">
         {{ $icon := resources.Get .Params.icon }}
         <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">

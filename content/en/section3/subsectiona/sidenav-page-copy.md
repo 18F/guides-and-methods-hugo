@@ -2,6 +2,7 @@
 title: "Sidenav Page Copy"
 sidenav: true
 inpagenav: true
+categories: "Iterate and improve"
 ---
 
 _By definition, this agile guide is a work in progress. We welcome community participation._
