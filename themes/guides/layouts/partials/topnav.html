@@ -10,7 +10,7 @@
         <span>{{ .Site.Params.shortTitle }}</span>
       </button>
       <ul id="basic-nav-section-one" class="usa-nav__submenu">
-        {{ range where .Site.Pages "Type" "==" "landing" }}
+        {{ range where .Site.Pages "Layout" "==" "landing" }}
         <li class="usa-nav__submenu-item">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
