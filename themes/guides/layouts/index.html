@@ -11,7 +11,7 @@
   </div>
   <section class="maxw-tablet-lg">
     <ul class="grid-row grid-gap add-list-reset">
-      {{ range where .Sections "Type" "==" "landing" }}
+      {{ range where .Sections "Layout" "==" "landing" }}
       <li class="grid-col-6 tablet:grid-col-4">
         {{ $icon := resources.Get .Params.icon }}
         <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
