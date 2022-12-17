@@ -38,10 +38,10 @@
       {{ range where .Sections "Layout" "==" "landing" }}
       <li class="grid-col-6 tablet:grid-col-4">
         {{ $icon := resources.Get .Params.icon }}
-        <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
-          <img src="{{ $icon.RelPermalink }}" class="width-10 margin-bottom-1 display-block" aria-hidden="true"
-            role="img" />
-          <span>{{ .Title }}</span>
+        <img src="{{ $icon.RelPermalink }}" class="width-10 display-block padding-left-4" aria-hidden="true"
+          role="img" />
+        <a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .RelPermalink }}">
+          {{ .Title }}
         </a>
       </li>
       {{ end }}
