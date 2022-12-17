@@ -1,7 +1,7 @@
 ---
 title: "Section5"
 description: A collection of tools to bring human-centered design into your project.
-type: landing
+layout: landing
 hero: true
 hero_color: "bg-ink"
 cascade:

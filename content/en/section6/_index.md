@@ -1,6 +1,6 @@
 ---
 title: "Section6"
-type: landing
+layout: landing
 hero: true
 cascade:
   icon: "images/user-interviews-love--c.svg"

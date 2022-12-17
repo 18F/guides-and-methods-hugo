@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-type: landing
+layout: landing
 hero: true
 icon: "images/product.svg"
 hero: true

@@ -1,6 +1,6 @@
 ---
 title: "Section3"
-type: landing
+layout: landing
 hero: true
 breadcrumb: true
 cascade:
