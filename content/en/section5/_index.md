@@ -8,6 +8,7 @@ cascade:
   icon: "images/design-methods.svg"
   email: "section5@gsa.gov"
   type: fancy
+  categories: "Plan"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum repellendus nostrum ad aliquam illum non dolores quidem perspiciatis vero culpa tempora dolorem, ullam eum incidunt quae corrupti neque tenetur?

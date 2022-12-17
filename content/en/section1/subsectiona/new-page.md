@@ -4,6 +4,7 @@ breadcrumb: true
 inpagenav: true
 sidenav: true
 inpagenav: true
+categories: "Buy better"
 tags: [accessibility, methods]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Page With Prose"
+categories: "Buy better"
 tags: [accessibility, UX, methods]
 ---
 

@@ -6,23 +6,48 @@
     <span class="subtitle">{{.}}</span>
     {{ end }}
   </header>
-  <div class="padding-y-6 font-sans-lg">
+  <div class="padding-y-6 font-sans-md">
+    <h2>Page abstract</h2>
     {{ .Params.abstract }}
   </div>
-  <section class="maxw-tablet-lg">
+
+  <section class="maxw-tablet-lg font-sans-md">
+    <h2>Content by category</h2>
+    <ul class="usa-list--unstyled display-inline-flex">
+      {{ range .Site.Taxonomies.categories }}
+      <li><a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{
+          .Count }})</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <section class="maxw-tablet-lg font-sans-md">
+    <h2>Content by tags</h2>
+    <ul class="usa-list--unstyled display-inline-flex">
+      {{ range .Site.Taxonomies.tags }}
+      <li><a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{
+          .Count }})</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section class="maxw-tablet-lg font-sans-md">
+    <h2>Content by section</h2>
     <ul class="grid-row grid-gap add-list-reset">
       {{ range where .Sections "Layout" "==" "landing" }}
       <li class="grid-col-6 tablet:grid-col-4">
         {{ $icon := resources.Get .Params.icon }}
-        <a class="display-block padding-6 radius-md hover:bg-gray-5" href="{{ .RelPermalink }}">
-          <img src="{{ $icon.RelPermalink }}" class="width-15 margin-bottom-1 display-block" aria-hidden="true"
-            role="img" />
-          <span>{{ .Title }}</span>
+        <img src="{{ $icon.RelPermalink }}" class="width-10 display-block padding-left-4" aria-hidden="true"
+          role="img" />
+        <a class="display-inline-block padding-4 hover:bg-gray-5" href="{{ .RelPermalink }}">
+          {{ .Title }}
         </a>
       </li>
       {{ end }}
     </ul>
   </section>
+
   <div class="usa-prose padding-y-6">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}

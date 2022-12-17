@@ -1,5 +1,6 @@
 ---
 title: "Wide Page"
+categories: "Buy better"
 tags: [accessibility, methods]
 ---
 

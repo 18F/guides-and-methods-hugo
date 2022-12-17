@@ -6,6 +6,7 @@ breadcrumb: true
 cascade:
   icon: "images/accessibility.svg"
   email: "section1@gsa.gov"
+  categories: "Buy better"
 ---
 
 This is the landing page for Section1 content.

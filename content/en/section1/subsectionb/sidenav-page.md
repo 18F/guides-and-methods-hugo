@@ -2,6 +2,7 @@
 title: "Sidenav Page"
 sidenav: true
 inpagenav: true
+categories: "Buy better"
 tags: [UX, accessibility, research]
 ---
 
