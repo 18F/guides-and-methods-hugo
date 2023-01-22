@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Card sorting
-permalink: /validate/card-sorting/
+old_permalink: /validate/card-sorting/
 redirect_from:
   - /card-sorting/
 description: A categorization exercise in which participants divide concepts into different groups based on their

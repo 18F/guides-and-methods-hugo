@@ -2,7 +2,7 @@
 title: Example Design Research Participant Agreement
 description: An example design research participant agreement
 layout: redirect
-permalink: /participant-agreement/
+old_permalink: /participant-agreement/
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/participant-agreement.md
 ---
 

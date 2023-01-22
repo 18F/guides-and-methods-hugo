@@ -2,7 +2,7 @@
 title: Example Design Research Participant Agreement — Spanish
 description: An example design research participant agreement in Spanish
 layout: page
-permalink: /participant-agreement-spanish/
+old_permalink: /participant-agreement-spanish/
 
 ---
 
@@ -23,7 +23,7 @@ Este acuerdo está vinculado con su participación en un estudio dirigido por `<
 - **`<Organización>` tomará las precauciones adecuadas para proteger su privacidad,** como se explica en la Declaración de la Ley de Privacidad de Investigación de Diseño y en la Evaluación del Impacto de la Privacidad. `<Organización>` toma medidas para minimizar y eliminar cualquier información sensible de identificación personal innecesaria capturada durante esta investigación.
 
 ---
-		
+
 <table class="signature-block">
   <tr>
     <td>
@@ -51,9 +51,9 @@ Este acuerdo está vinculado con su participación en un estudio dirigido por `<
   </tr>
 </table>
 
-Aviso de la Ley de Privacidad: `<Organización>` solicita su información de contacto para que podamos decidir si puede participar en estudios de investigación de diseño. Su participación en un estudio es opcional; nada cambia si se niega a participar. Al proporcionar su información de contacto, usted acepta recibir comunicaciones de seguimiento sobre el estudio.  
-  
-La investigación de diseño de `<Organización>` se lleva a cabo en el espíritu de la Orden Ejecutiva 13571, Sección 2B, que dirige a las agencias a "establecer mecanismos para solicitar comentarios de los clientes sobre los servicios del Gobierno y usar dichos comentarios regularmente para realizar mejoras en el servicio". La recopilación de información de contacto de GSA está autorizada por la Ley de Gobierno Electrónico de 2002 (P.L.107-347, 44 USC § 3501). 
+Aviso de la Ley de Privacidad: `<Organización>` solicita su información de contacto para que podamos decidir si puede participar en estudios de investigación de diseño. Su participación en un estudio es opcional; nada cambia si se niega a participar. Al proporcionar su información de contacto, usted acepta recibir comunicaciones de seguimiento sobre el estudio.
+
+La investigación de diseño de `<Organización>` se lleva a cabo en el espíritu de la Orden Ejecutiva 13571, Sección 2B, que dirige a las agencias a "establecer mecanismos para solicitar comentarios de los clientes sobre los servicios del Gobierno y usar dichos comentarios regularmente para realizar mejoras en el servicio". La recopilación de información de contacto de GSA está autorizada por la Ley de Gobierno Electrónico de 2002 (P.L.107-347, 44 USC § 3501).
 
 
 

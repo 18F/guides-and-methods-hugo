@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Personas
-permalink: /decide/personas/
+old_permalink: /decide/personas/
 redirect_from:
   - /personas/
 description: User archetypes based on conversations with real people.

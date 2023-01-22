@@ -1,5 +1,5 @@
 ---
-permalink: /interviews/code-review/
+old_permalink: /interviews/code-review/
 title: Code review interview guide
 sidenav:
   - text: Code review interview guide
@@ -53,7 +53,7 @@ Begin by introducing yourself by saying this or something similar to it:
 > My questions will take about 40 to 45 minutes or so, and then we’ll have the remaining time to answer any questions that you may have. Feel free to think for a moment before answering if that’s your style - you won’t be judged for it.
 >
 > There will be times when I ask for more information, or want to dig deeper into your answers. That’s normal: I want to make sure I understand what you did and why. I’ll be taking notes, please don’t let that distract you.
-> 
+>
 > I’m excited you’re here - do you have any questions for me before we get started?
 
 ### Questions and follow-ups

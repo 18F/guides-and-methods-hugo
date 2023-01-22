@@ -2,13 +2,13 @@
 title: Usability Test Quality Heuristics
 description: A list of indicators to help you and your team determine if your usability test will produce useful results.
 layout: redirect
-permalink: /usability-test-quality-heuristics/
+old_permalink: /usability-test-quality-heuristics/
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/usability-test-quality-heuristics.md
 ---
 
 # Usability test quality heuristics
 
-The following indicators can help determine if a usability test will produce useful results.  
+The following indicators can help determine if a usability test will produce useful results.
 This is not an exhaustive list, but it should be helpful in planning and assessing usability tests. Additions are welcome!
 
 ### Study design

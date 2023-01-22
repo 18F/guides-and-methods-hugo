@@ -1,5 +1,5 @@
 ---
-permalink: /icons/
+old_permalink: /icons/
 layout: post
 title: Icons
 ---

@@ -1,7 +1,7 @@
 ---
 layout: card
 title: KJ method
-permalink: /discover/kj-method/
+old_permalink: /discover/kj-method/
 redirect_from:
   - /kj-method/
 description: A facilitated exercise in which participants list their individual priorities onto cards, collect them as a group, organize them by relationship, and establish group priorities through individual voting.
@@ -24,7 +24,7 @@ timeRequired: 1–2 hours
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from 18F  
+## Example from 18F
 
 18F conducted this exercise with 20 Federal Election Commission staff members to define priorities around conflicting requests. We used this method to get data from staff (not the decision makers) about what they saw as the most pressing needs. We synthesized and presented the data back to the decision makers.
 </section>

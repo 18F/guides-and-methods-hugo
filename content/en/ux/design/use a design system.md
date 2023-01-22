@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use a design system
-permalink: /design/use-a-design-system/
+old_permalink: /design/use-a-design-system/
 sidenav: design
 sticky_sidenav: true
 subnav:

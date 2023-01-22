@@ -3,5 +3,5 @@ title: Fundamentals
 layout: category
 category: Fundamentals
 description: Foundational methods for practicing design research.
-permalink: /fundamentals/
+old_permalink: /fundamentals/
 ---

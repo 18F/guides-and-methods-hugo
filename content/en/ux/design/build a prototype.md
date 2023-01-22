@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build a prototype
-permalink: /design/build-a-prototype/
+old_permalink: /design/build-a-prototype/
 sidenav: design
 sticky_sidenav: true
 subnav:
@@ -71,6 +71,6 @@ Once they’ve added your account, you can [sign in](https://federalistapp.18f.g
 
 Depending where you worked prior to joining 18F, you are probably accustomed to having some flexibility around your design toolset. Working for the government means only using tools that have been granted an [Authority to Operate (ATO)](https://before-you-ship.18f.gov/ato/): due to security compliance, we are only allowed to use GSA IT-approved tools.
 
-Don’t fret! 18F has done a great job of getting us licenses to standard prototyping [tools](https://handbook.18f.gov/design/#tools). To request licenses, [review the 18F Handbook](https://handbook.18f.gov/design/#tools). Ensure you review the usage parameters for each tool.  
+Don’t fret! 18F has done a great job of getting us licenses to standard prototyping [tools](https://handbook.18f.gov/design/#tools). To request licenses, [review the 18F Handbook](https://handbook.18f.gov/design/#tools). Ensure you review the usage parameters for each tool.
 
 The team is always exploring other tool options for the 18F toolbox. You can investigate whether someone has already submitted an ATO for a new prototyping tool in these (18F/GSA access only) [#design](https://gsa-tts.slack.com/messages/design) or [#ux](https://gsa-tts.slack.com/messages/ux) slack channels, or you can look it up at (18F/GSA access only)[GEAR](https://ea.gsa.gov/#!/itstandards), the IT standards list.

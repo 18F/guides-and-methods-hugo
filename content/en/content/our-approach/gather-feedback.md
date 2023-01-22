@@ -1,6 +1,6 @@
 ---
 title: Gather feedback
-permalink: /our-approach/gather-feedback/
+old_permalink: /our-approach/gather-feedback/
 sidenav: our-approach
 sticky_sidenav: true
 subnav:

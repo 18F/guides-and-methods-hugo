@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coach the product owner
-permalink: /partners/coach/
+old_permalink: /partners/coach/
 sidenav: partners
 sticky_sidenav: true
 ---

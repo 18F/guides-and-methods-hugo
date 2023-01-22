@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understand your key stakeholders
-permalink: /discover/stakeholders/
+old_permalink: /discover/stakeholders/
 sidenav: discover
 sticky_sidenav: true
 ---

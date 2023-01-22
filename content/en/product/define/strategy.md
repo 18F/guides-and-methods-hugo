@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Develop a strategy
-permalink: /define/strategy/
+old_permalink: /define/strategy/
 sidenav: define
 sticky_sidenav: true
 ---

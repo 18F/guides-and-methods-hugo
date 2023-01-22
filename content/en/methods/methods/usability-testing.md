@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Usability testing
-permalink: /validate/usability-testing/
+old_permalink: /validate/usability-testing/
 redirect_from:
   - /usability-testing/
 description: Observing users as they attempt to use a product or service while thinking out loud.

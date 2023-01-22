@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Privacy
-permalink: /fundamentals/privacy/
+old_permalink: /fundamentals/privacy/
 redirect_from:
   - /privacy/
 description: Designers have an obligation to respect and protect privacy.

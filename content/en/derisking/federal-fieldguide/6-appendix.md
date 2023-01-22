@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Appendix | De-risking government technology: Federal field guide | 18F"
-permalink: /federal-field-guide/appendix/
+old_permalink: /federal-field-guide/appendix/
 sidenav: federal
 sticky_sidenav: true
 subnav:

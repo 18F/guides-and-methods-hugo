@@ -1,5 +1,5 @@
 ---
-permalink: /typography/
+old_permalink: /typography/
 layout: post
 title: Typography
 ---

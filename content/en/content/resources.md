@@ -1,6 +1,6 @@
 ---
 title: Resources
-permalink: /resources/
+old_permalink: /resources/
 sidenav: overview
 sticky_sidenav: true
 subnav:

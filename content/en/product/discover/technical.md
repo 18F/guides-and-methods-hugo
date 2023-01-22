@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Understand the technical landscape
-permalink: /discover/technical/
+old_permalink: /discover/technical/
 sidenav: discover
 sticky_sidenav: true
 ---
 
-The partner’s technical landscape will impact how you plan for the future “to be” state.  You will want to work with your engineering lead to ensure that you have a solid understanding of your partner’s current systems and processes, and the implications for defining a path forward.  Understanding the technology they’re currently using and their interdependencies will help your team identify factors that complicate or constrain your options.  Understanding their security and privacy requirements and the processes they rely on to remain in compliance will help your team plan ahead and identify opportunities to “shift security left” to increase efficiency.  And understanding the resources and skill sets they have available will allow you, your engineer, and your acquisitions lead to consider strategies for maintenance and sustainability.  
+The partner’s technical landscape will impact how you plan for the future “to be” state.  You will want to work with your engineering lead to ensure that you have a solid understanding of your partner’s current systems and processes, and the implications for defining a path forward.  Understanding the technology they’re currently using and their interdependencies will help your team identify factors that complicate or constrain your options.  Understanding their security and privacy requirements and the processes they rely on to remain in compliance will help your team plan ahead and identify opportunities to “shift security left” to increase efficiency.  And understanding the resources and skill sets they have available will allow you, your engineer, and your acquisitions lead to consider strategies for maintenance and sustainability.
 
 ## Considerations: A good understanding of the technical landscape...
 
@@ -14,7 +14,7 @@ The partner’s technical landscape will impact how you plan for the future “t
 
 - Identifies the current digital/physical systems used to carry out Continuous Integration (CI) processes
 
-- Evaluates the current tech team capacity to maintain and support the product post-build to determine an appropriate vendor acquisition strategy  
+- Evaluates the current tech team capacity to maintain and support the product post-build to determine an appropriate vendor acquisition strategy
 
 ## Activities: How to get there
 

@@ -1,6 +1,6 @@
 ---
 title: Punctuation
-permalink: /our-style/punctuation/
+old_permalink: /our-style/punctuation/
 sidenav: our-style
 sticky_sidenav: true
 subnav:
@@ -9,7 +9,7 @@ subnav:
   - text: Colons
     href: '#colons'
   - text: Commas
-    href: '#commas'  
+    href: '#commas'
   - text: Dashes
     href: '#dashes'
   - text: Quotes
@@ -19,7 +19,7 @@ subnav:
   - text: Ampersands or plus signs
     href: '#ampersands-or-plus-signs'
   - text: Slashes
-    href: '#slashes'            
+    href: '#slashes'
 ---
 
 ## Bulleted lists
@@ -41,7 +41,7 @@ Capitalize the first word of every bullet. Don't use semicolons after points in 
 
 Capitalize the first word after a colon, only if what follows is a complete sentence. For example:
 
-> I have several favorite foods: apples, bananas, and naan chips.  
+> I have several favorite foods: apples, bananas, and naan chips.
 
 > I have several favorite foods: Apples were my first favorite snack, but naan chips
 are a rising star in my life.
@@ -64,9 +64,9 @@ Although we advocate using words rather than symbols, in some contexts you may u
 
 These quotations are correctly punctuated:
 
-> “Would you like a banana?” he asked.  
+> “Would you like a banana?” he asked.
 
-> “I hate bananas,” she said. “You know I hate bananas.”  
+> “I hate bananas,” she said. “You know I hate bananas.”
 
 > He paused before saying “bananas are not something people should hate.”
 

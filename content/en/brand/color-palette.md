@@ -1,6 +1,6 @@
 ---
 id: color-palette
-permalink: /color-palette/
+old_permalink: /color-palette/
 layout: wide
 title: Color palette
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build the product
-permalink: deliver/build/
+old_permalink: deliver/build/
 sidenav: deliver
 sticky_sidenav: true
 ---

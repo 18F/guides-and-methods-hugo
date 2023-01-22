@@ -1,5 +1,5 @@
 ---
-permalink: /templates/
+old_permalink: /templates/
 layout: post
 title: Templates
 ---

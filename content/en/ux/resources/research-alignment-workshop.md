@@ -1,5 +1,5 @@
 ---
-permalink: /research/alignment-workshop/
+old_permalink: /research/alignment-workshop/
 layout: redirect
 title: Research alignment workshop
 sidenav: research
@@ -27,7 +27,7 @@ A research alignment workshop publicizes team questions and prioritizes research
 
 ## Prep-work - 10-15 minutes
 
-In the workshop, participants (including you!) will be sharing their burning research questions with the team. Prior to the workshop day, have each team member spend 10-15 minutes on a short homework assignment to maximize the efficiency of your workshop and ensure that team members bring thoughtful questions to the session.  
+In the workshop, participants (including you!) will be sharing their burning research questions with the team. Prior to the workshop day, have each team member spend 10-15 minutes on a short homework assignment to maximize the efficiency of your workshop and ensure that team members bring thoughtful questions to the session.
 
 #### Assignment template
 
@@ -61,7 +61,7 @@ Open with a brief discussion about the need for collaboration in the development
 
 At this time, you'll ask the group to get out their post-it notes. Team members will each take a turn acting as the reader, while the rest of the group will act as the listeners.
 
-**The reader:** Read the question out loud. Then, repeat it so the group can fully absorb the question.   
+**The reader:** Read the question out loud. Then, repeat it so the group can fully absorb the question.
 
 **The listeners:** Discuss the question and its merits, Record offshoot questions.
 
@@ -77,11 +77,11 @@ You're developing a mentorship tool to connect youth with adult mentors in a fie
 >
 > *Reader:* Well, I'm asking because I think that in-person meetings are one of the ways to develop trust between two people and our tool should probably have some kind of 1:1 component.
 >
-> *Facilitator:* It sounds like you're interested in is understanding how trust is formed between youths and adults.    
+> *Facilitator:* It sounds like you're interested in is understanding how trust is formed between youths and adults.
 >
 > *Reader:* Yes, definitely. We should be able to create a trusting environment in our product.
 >
-> *Facilitator:* Great, let's rephrase your question. On a new sticky note you can write, "What are drivers of trust in youth-adult relationships?"   
+> *Facilitator:* Great, let's rephrase your question. On a new sticky note you can write, "What are drivers of trust in youth-adult relationships?"
 
 In this example, our reader just needed some guidance to articulate their question. In this way, we have *empowered* the reader and given them *ownership* over their question. We have also turned the workshop into a learning activity for the entire group, providing them hands-on practice to create well-developed research questions (just some of the sneaky side benefits of the workshop).
 

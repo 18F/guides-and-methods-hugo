@@ -1,6 +1,6 @@
 ---
 title: Images
-permalink: /images/
+old_permalink: /images/
 layout: redirect
 redirect: /our-style/
 ---

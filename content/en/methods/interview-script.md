@@ -2,7 +2,7 @@
 title: Example User Interview Script
 description: An example script for use while leading a user interview
 layout: page
-permalink: /interview-script/
+old_permalink: /interview-script/
 ---
 
 <style type="text/css" media="print">

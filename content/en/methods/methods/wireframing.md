@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Wireframing
-permalink: /make/wireframing/
+old_permalink: /make/wireframing/
 redirect_from:
   - /wireframing/
 description: A simple visual representation of a product or service interface.

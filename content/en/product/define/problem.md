@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Define the problem
-permalink: /define/problem/
+old_permalink: /define/problem/
 sidenav: define
 sticky_sidenav: true
 ---

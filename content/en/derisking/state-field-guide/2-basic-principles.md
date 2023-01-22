@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Basic principles of modern software design | De-risking government technology:State Software Budgeting Handbook | 18F"
-permalink: /state-field-guide/basic-principles/
+old_permalink: /state-field-guide/basic-principles/
 sidenav: state
 sticky_sidenav: true
 subnav:

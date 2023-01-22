@@ -1,5 +1,5 @@
 ---
-permalink: /research/lead/
+old_permalink: /research/lead/
 layout: redirect
 title: Research lead
 sidenav: research

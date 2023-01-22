@@ -2,7 +2,7 @@
 title: Example Interview Debrief Worksheet
 description: An example worksheet to engage research teams in post-moderated research conversation
 layout: page
-permalink: /interview-debrief/
+old_permalink: /interview-debrief/
 ---
 
 <style type="text/css" media="print">

@@ -2,7 +2,7 @@
 title: Example Design Research Participant Agreement — Spanish
 description: An example design research participant agreement in Spanish
 layout: redirect
-permalink: /participant-agreement-spanish/
+old_permalink: /participant-agreement-spanish/
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/participant-agreement-spanish.md
 ---
 

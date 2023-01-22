@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Doing the work | De-risking government technology: Federal field guide | 18F"
-permalink: /federal-field-guide/doing-the-work/
+old_permalink: /federal-field-guide/doing-the-work/
 sidenav: federal
 sticky_sidenav: true
 subnav:
@@ -63,7 +63,7 @@ Goals of a post-award kick-off:
 
 **Get folks excited:** Set the relationship off on the right foot, with the team leaving excited and energized.
 
-&nbsp;  
+&nbsp;
 To align both the government and the vendor, consider these things when planning a kick-off:
 
 **Attendance:** Who will attend?
@@ -249,7 +249,7 @@ The role of the government looks something like this:
 
 **Contracting Officer:** The Contracting Officer (CO) has most likely awarded a firm-fixed-price contract that is "set it and forget it," which makes approving invoices easy. COs across government are notoriously understaffed and overworked, so the CO will only get involved if there is a problem that can't be resolved by the COR or if a contract modification is required. 
 
-&nbsp;  
+&nbsp;
 Contract modifications are common. A contract can go through dozens of modifications in its lifetime. These modifications can be both administrative ones like changing an official point of contact to a "within scope" change request.
 
 There will be misalignments between what a program office intended as a contractual requirement and what the contractor interpreted the requirement to mean. During software development, the contractor or government will unearth new information that changes the intended design or functionality of the system. Laws and policies will change. Agency priorities and leadership will change. User needs will change. Technology will change. 
@@ -272,7 +272,7 @@ Transparency and open dialogue are paramount in Agile practices. The government 
 
 **Contracting Officer:** The CO is more involved than with traditional contracts; they are aware of contractor spending to approve invoices, and they check in with the COR to ensure that the contractor team is delivering value every sprint. 
 
-&nbsp;  
+&nbsp;
 The contract scope is set at the product vision, not at the discrete requirements, so the team has flexibility to identify and implement user needs through the project. Aside from exercising an option, modifications are rare. The not-to-exceed ceiling likely will not change throughout the project. Value will be delivered to end users frequently throughout the project. 
 
 Agile contract administration requires more time and effort on the part of the government, both from the PO and CO. 

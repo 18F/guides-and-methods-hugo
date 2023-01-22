@@ -2,7 +2,7 @@
 title: Interview checklist
 description: Helpful reminders for moderating interviews
 layout: page
-permalink: /interview-checklist/
+old_permalink: /interview-checklist/
 ---
 
 <style type="text/css" media="print">

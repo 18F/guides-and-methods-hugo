@@ -1,6 +1,6 @@
 ---
 title: Our approach
-permalink: /our-approach/
+old_permalink: /our-approach/
 sidenav: our-approach
 sticky_sidenav: true
 subnav:

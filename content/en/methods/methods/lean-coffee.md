@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Lean coffee
-permalink: /discover/lean-coffee/
+old_permalink: /discover/lean-coffee/
 redirect_from:
   - /lean-coffee/
 description: A format for running a meeting without a predefined agenda

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources
-permalink: /resources/
+old_permalink: /resources/
 sidenav: about
 sticky_sidenav: true
 ---

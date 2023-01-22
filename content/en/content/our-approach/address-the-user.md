@@ -1,6 +1,6 @@
 ---
 title: Address the user
-permalink: /our-approach/address-the-user/
+old_permalink: /our-approach/address-the-user/
 sidenav: our-approach
 sticky_sidenav: true
 ---

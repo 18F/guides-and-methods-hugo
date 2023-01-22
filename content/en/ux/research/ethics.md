@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ethics
-permalink: /research/ethics/
+old_permalink: /research/ethics/
 sidenav: research
 sticky_sidenav: true
 subnav:
@@ -22,7 +22,7 @@ Research provides us with powerful opportunities. The following ethical principl
 
 ## Respect
 
-We respect the people who participate in our research and acknowledge  
+We respect the people who participate in our research and acknowledge
 that they are experts on their own experiences.
 
 ### Ways to demonstrate respect:

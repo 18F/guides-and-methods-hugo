@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet partners where they are
-permalink: /our-approach/meet-partners-where-they-are/
+old_permalink: /our-approach/meet-partners-where-they-are/
 sidenav: our-approach
 sticky_sidenav: true
 subnav:

@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Dot voting
-permalink: /discover/dot-voting/
+old_permalink: /discover/dot-voting/
 redirect_from:
   - /discover/feature-dot-voting/
   - /feature-dot-voting/

@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Contextual inquiry
-permalink: /discover/contextual-inquiry/
+old_permalink: /discover/contextual-inquiry/
 redirect_from:
   - /contextual-inquiry/
 description: The product team unobtrusively observes participants at work, with their permission, then asks questions.

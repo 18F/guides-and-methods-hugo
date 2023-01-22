@@ -1,7 +1,7 @@
 ---
 title: Color and contrast
 description: 'How we work with color and contrast'
-permalink: /color/
+old_permalink: /color/
 page_title: Color and contrast
 layout: post
 sidenav: docs

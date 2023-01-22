@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Discover the current state
-permalink: /discover/
+old_permalink: /discover/
 sidenav: discover
 sticky_sidenav: true
 ---

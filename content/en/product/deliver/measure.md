@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Measure success
-permalink: /deliver/measure/
+old_permalink: /deliver/measure/
 sidenav: deliver
 sticky_sidenav: true
 ---

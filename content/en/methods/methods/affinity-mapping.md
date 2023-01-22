@@ -1,10 +1,10 @@
 ---
 layout: card
 title: Affinity mapping
-permalink: /decide/affinity-mapping/
+old_permalink: /decide/affinity-mapping/
 redirect_from:
   - /affinity-mapping/
-# Description is used for meta information and should be less than  
+# Description is used for meta information and should be less than
 description: A way of finding themes in collections of ideas, quotes, or observations.
 category: Decide
 what: A way of finding themes in collections of ideas, quotes, or observations.

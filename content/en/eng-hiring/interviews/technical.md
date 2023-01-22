@@ -1,5 +1,5 @@
 ---
-permalink: /interviews/technical/
+old_permalink: /interviews/technical/
 title: Technical interview guide
 sidenav:
   - text: Technical interview guide
@@ -40,7 +40,7 @@ The interview should last roughly one hour, and include some segments in which t
 
 Take a few minutes to familiarize yourself with the candidate’s resume and review [the good and bad signs](https://docs.google.com/document/d/1oYmx_93-mq2QrqICCo8SNk8hHmnPPonPA1kg0vhy540/edit) for the questions you’ll be asking.
 
-You will recieve a copy of the notes template prior to the interview. 
+You will recieve a copy of the notes template prior to the interview.
 
 <a class="usa-button usa-button-primary" href="https://docs.google.com/document/d/1-OUt37PCx-VZfO8pa6d5ge-jIp15ur8biywHyxOSyfY/edit#heading=h.ee6z4qfrw31q">View the notes template</a>
 

@@ -1,7 +1,7 @@
 ---
 title: Images
 description: 'How we work with images'
-permalink: /images/
+old_permalink: /images/
 page_title: Images
 layout: post
 sidenav: docs

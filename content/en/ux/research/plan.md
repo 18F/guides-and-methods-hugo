@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plan
-permalink: /research/plan/
+old_permalink: /research/plan/
 sidenav: research
 sticky_sidenav: true
 subnav:
@@ -110,7 +110,7 @@ Plan more time than you think you need, and consider especially:
     - What do they need to do?
     - When must they be done?
     - Where do they go from there?
-- How you plan to involve the team in analysis, synthesis, and sharing  
+- How you plan to involve the team in analysis, synthesis, and sharing
   A safe estimate for research analysis is about twice as long as the research itself
 
 Here’s a sample timeline for a contextual inquiry (on site) followed by eight 1-1 interviews (remote) with stakeholders:
@@ -189,7 +189,7 @@ To compensate people for participation in design research, we must obtain author
    (i.e., amount paid to the user)
 2. Compensating user research participants must directly advance the client’s statutory mission and objectives
 
-The process of paying participants for research is similar to paying for a contractor or vendor. In order to add compensation for participants to your in-flight engagement or new IAA, you can use the [18F User Research Authorization - Part B, Attachment 2 (18F/GSA access only](https://docs.google.com/document/d/1ehb3W14_eEo8DdHjU0bCeyzG_t8I__7VyLV_cU4ZmQY/edit)).  
+The process of paying participants for research is similar to paying for a contractor or vendor. In order to add compensation for participants to your in-flight engagement or new IAA, you can use the [18F User Research Authorization - Part B, Attachment 2 (18F/GSA access only](https://docs.google.com/document/d/1ehb3W14_eEo8DdHjU0bCeyzG_t8I__7VyLV_cU4ZmQY/edit)).
 
 Initial OGC guidance is to work with a recruiting agency to make payments to participants. In many cases, we'll be more successful at achieving diverse and representative participation if we work with trusted community organizations, including from tribal nations. TTS will continue to iterate on this approach in partnership with OGC. More detailed information can be found in the doc: [Compensating research participants document (18F/GSA access only](https://docs.google.com/document/d/1oWDxVUsRbO1ELNmni3Qa-uYPhXDWuNM3HESgAUxs7Uw/edit)).
 

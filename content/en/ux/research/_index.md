@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research
-permalink: /research/
+old_permalink: /research/
 sidenav: research
 sticky_sidenav: true
 ---

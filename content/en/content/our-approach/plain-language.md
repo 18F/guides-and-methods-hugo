@@ -1,6 +1,6 @@
 ---
 title: Use plain language
-permalink: /our-approach/plain-language/
+old_permalink: /our-approach/plain-language/
 sidenav: our-approach
 sticky_sidenav: true
 redirect_from:

@@ -1,7 +1,7 @@
 ---
 title: Page titles
 description: 'How we deal with page titles'
-permalink: /page-titles/
+old_permalink: /page-titles/
 page_title: Page titles
 layout: post
 sidenav: docs

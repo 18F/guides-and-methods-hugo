@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Design principles
-permalink: /decide/design-principles/
+old_permalink: /decide/design-principles/
 redirect_from:
   - /design-principles/
 description: Written statements, generally in the form of imperatives like "Earn people's trust," that serve as guiding lights during decision-making.

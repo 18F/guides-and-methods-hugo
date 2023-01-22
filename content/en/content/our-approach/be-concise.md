@@ -1,6 +1,6 @@
 ---
 title: Be concise
-permalink: /our-approach/be-concise/
+old_permalink: /our-approach/be-concise/
 sidenav: our-approach
 sticky_sidenav: true
 subnav:
@@ -34,7 +34,7 @@ Craft sentences at 25 words or fewer, whenever possible. If a sentence has fewer
 
 We also recommend varying sentence length. Switching things up helps you keep readers interested. This tactic will also give you better control of your content’s [tone]({{ "/our-style/voice-and-tone" | relative_url }}) — a text with only short sentences can unintentionally sound terse. The occasional longer sentence adds a bit of narrative interest (and can help a piece of writing sound friendlier, too).
 
-Here’s an example of how you might transform a too-long sentence into something more manageable. 
+Here’s an example of how you might transform a too-long sentence into something more manageable.
 
 Instead of:
 

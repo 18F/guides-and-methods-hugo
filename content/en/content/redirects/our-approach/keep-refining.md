@@ -1,6 +1,6 @@
 ---
 title: Keep refining
-permalink: /keep-refining/
+old_permalink: /keep-refining/
 layout: redirect
 redirect: /our-approach/keep-refining/
 ---

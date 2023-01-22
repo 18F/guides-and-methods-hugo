@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Compensation
-permalink: /fundamentals/compensation/
+old_permalink: /fundamentals/compensation/
 redirect_from:
   - /compensation/
 description: Offering usability test or user research participants gifts to encourage participation and to thank them for their time.
@@ -18,10 +18,10 @@ timeRequired: N/A
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government  
+## Considerations for use in government
 
-No PRA implications. Even when users are present, the PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3.  
-  
+No PRA implications. Even when users are present, the PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3.
+
 If you are not working with government employees, you will need to observe standard precautions for archiving personally identifiable information.
 
 </section>

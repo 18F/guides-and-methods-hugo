@@ -1,5 +1,5 @@
 ---
-permalink: /
+old_permalink: /
 layout: post
 title: Introduction
 ---

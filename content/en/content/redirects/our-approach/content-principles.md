@@ -1,6 +1,6 @@
 ---
 title: Content principles
-permalink: /content-principles/
+old_permalink: /content-principles/
 layout: redirect
 redirect: /our-approach/
 ---

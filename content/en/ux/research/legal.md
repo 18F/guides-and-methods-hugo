@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legal
-permalink: /research/legal/
+old_permalink: /research/legal/
 sidenav: research
 sticky_sidenav: true
 subnav:

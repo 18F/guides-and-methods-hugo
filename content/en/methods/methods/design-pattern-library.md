@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Design pattern library
-permalink: /make/design-pattern-library/
+old_permalink: /make/design-pattern-library/
 redirect_from:
   - /design-pattern-library/
 description: A collection of user interface elements (for example colors, icons, and buttons) used frequently across a website or service, consisting of the base patterns and helpful information about how to use them.
@@ -17,11 +17,11 @@ timeRequired: 1–2 hours per pattern; ongoing maintenance.
 1. Describe or visualize how someone will use the pattern and how it should respond to the user. (For example: how a button renders on load, hover, and click.) Provide any data as to why it is good for the end user.
 1. Include any code or snippets that front end developers can use to implement the pattern.
 1. Show examples of how the same pattern could work in different solutions.
-1. Publish the design pattern library in an open, accessible space where the product team can use and extend it. (Common implementations of a design pattern library are in a wiki or brand style guide.)  
+1. Publish the design pattern library in an open, accessible space where the product team can use and extend it. (Common implementations of a design pattern library are in a wiki or brand style guide.)
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government  
+## Considerations for use in government
 
 No PRA implications. No information is collected from members of the public.
 </section>

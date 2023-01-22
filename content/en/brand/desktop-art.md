@@ -1,5 +1,5 @@
 ---
-permalink: /images/
+old_permalink: /images/
 layout: post
 title: Images
 ---

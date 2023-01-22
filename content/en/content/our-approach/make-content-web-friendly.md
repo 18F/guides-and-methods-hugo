@@ -1,6 +1,6 @@
 ---
 title: Make content web-friendly
-permalink: /our-approach/make-content-web-friendly/
+old_permalink: /our-approach/make-content-web-friendly/
 sidenav: our-approach
 sticky_sidenav: true
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /debrief/
+old_permalink: /debrief/
 title: Debrief meeting guide
 sidenav:
   - text: Debrief meeting guide
@@ -29,7 +29,7 @@ The purpose of the debrief meeting is to:
 
 ## Before the meeting
 
-- If you haven’t already done so, fill out the feedback form from your interview calendar event. This gives you the opportunity to reflect on the candidate individually, given only the data you were able to gather in your interview. 
+- If you haven’t already done so, fill out the feedback form from your interview calendar event. This gives you the opportunity to reflect on the candidate individually, given only the data you were able to gather in your interview.
 
 - Review your interview notes, and be prepared to present a 10 minute run-through of the interview using the candidate’s own words. Include in your summary any information that you used to determine your scoring. You’ll have an opportunity to add more information after hearing from other interviewers in case you determine something important was left out.
 
@@ -53,11 +53,11 @@ The purpose of the debrief meeting is to:
   </table>
 
   For candidates you did not rate a 5, what were you looking for that would have increased the candidate’s score?
-  
+
   When considering your score, you will not have other information from other interviews. That’s okay! The purpose of the score is to get a rough sense of alignment on each aspect of the candidate’s experience — for example, a candidate who scores 5’s and 4’s tells one story; a candidate who scores all 5’s with one interview scoring a 1 tells another story.
-  
-  In our debrief meeting, we’ll discuss the scores and any discrepancies between them — the scoring system is designed to spark discussion, and the scores are not used mathmatically to make hiring decisions. 
-  
+
+  In our debrief meeting, we’ll discuss the scores and any discrepancies between them — the scoring system is designed to spark discussion, and the scores are not used mathmatically to make hiring decisions.
+
   If you find yourself wanting to adjust your score during the debrief meeting, please bring it up and say why! Resist the urge to adjust your score because you are an outlier ("Everyone else said 5! I probably should increase my score…" — we trust your judgement, and you may have seen something others did not!) but it is more than okay to adjust your score if you have a concern which data from another interview addresses.
 
 ## Conversation outline

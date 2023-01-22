@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Develop product leadership capacity
-permalink: /partners/capacity/
+old_permalink: /partners/capacity/
 sidenav: partners
 sticky_sidenav: true
 ---

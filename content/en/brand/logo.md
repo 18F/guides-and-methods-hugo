@@ -1,5 +1,5 @@
 ---
-permalink: /logo/
+old_permalink: /logo/
 layout: post
 title: Logo
 ---

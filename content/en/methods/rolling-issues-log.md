@@ -2,7 +2,7 @@
 title: Rolling issues log
 description: An issue-tracking template for use while conducting usability testing
 layout: page
-permalink: /rolling-issues-log/
+old_permalink: /rolling-issues-log/
 ---
 
 <style type="text/css" media="print">

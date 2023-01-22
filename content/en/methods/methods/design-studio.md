@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Design studio
-permalink: /discover/design-studio/
+old_permalink: /discover/design-studio/
 redirect_from:
   - /design-studio/
 description: An illustration-based way to facilitate communication (and brainstorming) between a project team and stakeholders.

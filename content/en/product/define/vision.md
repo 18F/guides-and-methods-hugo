@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a vision
-permalink: /define/vision/
+old_permalink: /define/vision/
 sidenav: define
 sticky_sidenav: true
 ---

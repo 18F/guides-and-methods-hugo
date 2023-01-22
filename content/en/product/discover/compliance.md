@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understand the regulatory landscape
-permalink: /discover/compliance/
+old_permalink: /discover/compliance/
 sidenav: discover
 sticky_sidenav: true
 ---

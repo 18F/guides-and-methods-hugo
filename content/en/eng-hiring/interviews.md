@@ -1,5 +1,5 @@
 ---
-permalink: /interviews/
+old_permalink: /interviews/
 title: Overview of interviews
 sidenav:
   - text: Overview of interviews

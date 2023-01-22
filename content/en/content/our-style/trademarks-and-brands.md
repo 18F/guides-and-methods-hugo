@@ -1,6 +1,6 @@
 ---
 title: Trademarks and brands
-permalink: /our-style/trademarks-and-brands/
+old_permalink: /our-style/trademarks-and-brands/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

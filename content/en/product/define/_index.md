@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Define the future state
-permalink: /define/
+old_permalink: /define/
 sidenav: define
 sticky_sidenav: true
 ---

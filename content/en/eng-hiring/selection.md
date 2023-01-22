@@ -1,5 +1,5 @@
 ---
-permalink: /selection/
+old_permalink: /selection/
 title: Final selection meeting guide
 sidenav:
   - text: Final selection meeting guide

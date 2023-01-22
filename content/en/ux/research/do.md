@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do
-permalink: /research/do/
+old_permalink: /research/do/
 sidenav: research
 sticky_sidenav: true
 subnav:
@@ -301,7 +301,7 @@ In-person research happens most often when we go on-site with an agency partner 
 {:.list-item--margin-bottom-extra}
 - Try to get as much information about the room(s) you will be in and arrive early. Security at partner buildings can take time.
 - Make sure the room is accessible for all of your participants.
-- Take note of how the environment affects your participants. This may mean limiting the number of team members in the session.  
+- Take note of how the environment affects your participants. This may mean limiting the number of team members in the session.
 - Spend less effort on note taking and more effort on connecting with participants. Utilize photography and voice/video recording with permission. If it makes sense, try to involve participants and/or partners in capturing information.
 - Make sure to document your thoughts as a team shortly after the session to fill in any gaps in your notes (see debriefing, below).
 
@@ -313,7 +313,7 @@ The most common type of notes taken by 18F’s UX team are **verbatim**. Write d
 
 Taking verbatim notes also curbs the natural tendency to try to understand and analyze what’s being said in the moment. If you’re having trouble writing everything down, focus on capturing what participants say; you or the interviewer can always go back and clarify what questions were asked.
 
-Another style of note taking we commonly use is **interaction notes:** when we write down all of the actions people take and the reactions they have. For example, capturing a note such as “scrolled to the top of the page, re-read the instructions, scrolled back down to the input field and typed in name” would be sufficient. If conducting usability testing, consider flagging bugs or usability issues.  
+Another style of note taking we commonly use is **interaction notes:** when we write down all of the actions people take and the reactions they have. For example, capturing a note such as “scrolled to the top of the page, re-read the instructions, scrolled back down to the input field and typed in name” would be sufficient. If conducting usability testing, consider flagging bugs or usability issues.
 
 Note: If there are two notetakers available for a session, consider having one person take verbatim notes, and the other take interaction notes. In this case, it’s best to work in separate documents, as working too close to each other in the same file can be distracting.
 
@@ -328,7 +328,7 @@ Here are a few high-level things to capture in a debrief:
 
 - How did this session answer our research questions?
 - What were the main themes of this session?
-- Which questions or activities did the participant(s) have a lot (or very little) to say about?  
+- Which questions or activities did the participant(s) have a lot (or very little) to say about?
 - What new questions do we have?
 - Are there any new people we should talk to?
 

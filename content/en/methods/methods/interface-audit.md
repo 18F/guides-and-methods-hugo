@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Interface audit
-permalink: /decide/interface-audit/
+old_permalink: /decide/interface-audit/
 redirect_from:
   - /interface-audit/
 description: A listing and analysis of all the components, design patterns, and interface features of an existing website (including typography, color, graphics/illustration/icons)

@@ -1,7 +1,7 @@
 ---
 title: Flashing
 description: 'How we deal with flashing'
-permalink: /flashing/
+old_permalink: /flashing/
 page_title: Flashing
 layout: post
 sidenav: docs

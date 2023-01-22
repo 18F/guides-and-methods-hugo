@@ -1,7 +1,7 @@
 ---
 layout: card
 title: User scenarios
-permalink: /decide/user-scenarios/
+old_permalink: /decide/user-scenarios/
 redirect_from:
   - /user-scenarios/
 description: A method for telling a conceptual story about a user's interaction with your website, focusing on the what, how, and why.

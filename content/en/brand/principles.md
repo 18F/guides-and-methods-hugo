@@ -1,5 +1,5 @@
 ---
-permalink: /principles/
+old_permalink: /principles/
 layout: post
 title: Visual design principles
 ---

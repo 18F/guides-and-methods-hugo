@@ -1,5 +1,5 @@
 ---
-permalink: /interviews/wrap-up/
+old_permalink: /interviews/wrap-up/
 title: Wrap-up interview guide
 sidenav:
   - text: Wrap-up interview guide
@@ -47,7 +47,7 @@ Begin by introducing yourself by saying this or something similar to it:
 > There will be times when I ask for more information, or want to dig deeper into your answers. That’s normal, too: I want to make sure I understand what you did and why. I’ll be taking notes, please don’t let that distract you.
 >
 > My questions will take about 40 to 45 minutes or so, and then we’ll have the remaining time to answer any questions that you may have.
-> 
+>
 > I’m excited that you’re here — any questions before we get started?
 
 

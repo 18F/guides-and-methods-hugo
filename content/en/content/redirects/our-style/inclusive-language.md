@@ -1,6 +1,6 @@
 ---
 title: Inclusive language
-permalink: /inclusive-language/
+old_permalink: /inclusive-language/
 layout: redirect
 redirect: /our-style/inclusive-language/
 ---

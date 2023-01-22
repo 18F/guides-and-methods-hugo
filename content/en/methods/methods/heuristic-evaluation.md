@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Heuristic evaluation
-permalink: /discover/heuristic-evaluation/
+old_permalink: /discover/heuristic-evaluation/
 redirect_from:
   - /discover/heuristic-analysis/
   - /heuristic-evaluation/

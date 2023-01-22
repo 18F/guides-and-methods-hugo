@@ -1,5 +1,5 @@
 ---
-permalink: /pre-work/
+old_permalink: /pre-work/
 title: Technical pre-work
 sidenav:
   - text: Technical pre-work

@@ -2,7 +2,7 @@
 title: Example User Interview Script
 description: An example script for use while moderating a usability testing
 layout: page
-permalink: /user-interview-script/
+old_permalink: /user-interview-script/
 ---
 
 # Example user interview script

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collaborate and communicate
-permalink: /deliver/collaborate/
+old_permalink: /deliver/collaborate/
 sidenav: deliver
 sticky_sidenav: true
 ---

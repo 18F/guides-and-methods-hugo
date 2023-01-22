@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Design hypothesis
-permalink: /decide/design-hypothesis/
+old_permalink: /decide/design-hypothesis/
 redirect_from:
   - /design-hypothesis/
 description: A listing and analysis of all the content on an existing website (including pages, files, videos, audio or other data) that your users might reasonably encounter.
@@ -21,10 +21,10 @@ timeRequired: 1-2 hours
 
     Here’s a common way to structure your hypothesis:
 
-    *We believe that doing/building/creating [this] for [this user] will result in [this outcome].*  
+    *We believe that doing/building/creating [this] for [this user] will result in [this outcome].*
     *We’ll know we’re right when we see [this metric/signal].*
-    
-1. Once you've formulated your hypothesis, consider the following harm prompt to help the team think about and guard against potential unintended consequences of your work.   
+
+1. Once you've formulated your hypothesis, consider the following harm prompt to help the team think about and guard against potential unintended consequences of your work.
 
     *But, this could be harmful for [this user] if [this outcome happens].*
 

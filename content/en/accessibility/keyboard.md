@@ -1,7 +1,7 @@
 ---
 title: Keyboard access
 description: 'How we work with keyboards only'
-permalink: /keyboard/
+old_permalink: /keyboard/
 page_title: Keyboard access
 layout: post
 sidenav: docs

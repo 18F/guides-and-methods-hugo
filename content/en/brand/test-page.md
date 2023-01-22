@@ -1,8 +1,8 @@
 ---
-permalink: /color-palette/
+old_permalink: /color-palette/
 layout: post
 title: Color palette
-permalink: /test-page/
+old_permalink: /test-page/
 ---
 
 # I am an H1

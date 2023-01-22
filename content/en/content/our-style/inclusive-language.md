@@ -1,6 +1,6 @@
 ---
 title: Inclusive language
-permalink: /our-style/inclusive-language/
+old_permalink: /our-style/inclusive-language/
 sidenav: our-style
 sticky_sidenav: true
 subnav:
@@ -11,9 +11,9 @@ subnav:
   - text: Gender and sexuality
     href: '#gender-and-sexuality'
   - text: Nationality
-    href: '#nationality'     
+    href: '#nationality'
   - text: Race, ethnicity, and religion
-    href: '#race-ethnicity-and-religion'        
+    href: '#race-ethnicity-and-religion'
 redirect_from:
   - /conscious-style/
 ---

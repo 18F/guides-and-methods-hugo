@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+old_permalink: /about/
 layout: post
 title: About this guide
 ---

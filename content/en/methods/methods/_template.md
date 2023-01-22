@@ -1,7 +1,7 @@
 ---
 layout: card
 title: [Title here]
-permalink: /[category]/[title-slug]/
+old_permalink: /[category]/[title-slug]/
 redirect_from:
   - /[title-slug]/
 description: [Description here — this is the one-line "What"]
@@ -19,7 +19,7 @@ governmentConsiderations:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from 18F  
+## Example from 18F
 
 [Example here — Delete this section if no example from 18F]
 
@@ -27,7 +27,7 @@ governmentConsiderations:
 
 <section class="method--section method--section--additional-resources" markdown="1" >
 
-## Additional resources  
+## Additional resources
 
 - [Unordered list with additional resources linking out — Delete this section if no additional resources from 18F]
 
@@ -35,7 +35,7 @@ governmentConsiderations:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government  
+## Considerations for use in government
 
 [Add considerations as appropriate. Standard language is: No PRA implications. No information is collected from members of the public.]
 

@@ -2,7 +2,7 @@
 title: Interview Debrief Guide [Template]
 description: An example worksheet to engage research teams in post-moderated research conversation
 layout: redirect
-permalink: /interview-debrief/
+old_permalink: /interview-debrief/
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/interview-debrief-guide.md
 ---
 

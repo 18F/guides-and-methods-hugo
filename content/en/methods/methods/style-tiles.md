@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Style tiles
-permalink: /decide/style-tiles/
+old_permalink: /decide/style-tiles/
 redirect_from:
   - /style-tiles/
 description: A design document that contains various fonts, colors, and UI elements that communicate the visual brand direction for a website or application.

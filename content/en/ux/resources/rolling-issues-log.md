@@ -2,7 +2,7 @@
 title: Rolling issues log
 description: An issue-tracking template for use while conducting usability testing
 layout: redirect
-permalink: /rolling-issues-log/
+old_permalink: /rolling-issues-log/
 redirect: https://methods.18f.gov/rolling-issues-log/
 ---
 

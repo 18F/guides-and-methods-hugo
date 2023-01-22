@@ -1,6 +1,6 @@
 ---
 title: Active voice
-permalink: /active-voice/
+old_permalink: /active-voice/
 layout: redirect
 redirect: /our-style/active-voice/
 ---

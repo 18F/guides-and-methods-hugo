@@ -1,5 +1,5 @@
 ---
-permalink: /resources/email-templates/researcher-introduces-themselves
+old_permalink: /resources/email-templates/researcher-introduces-themselves
 layout: redirect
 title: Email template - Researcher introduces themselves to a participant
 sidenav: research
@@ -7,7 +7,7 @@ sticky_sidenav: true
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/email-templates/researcher-introduces-themselves.md
 ---
 
-Hey `[Participant name]`,  
+Hey `[Participant name]`,
 
 My name’s `[Researcher name]`. I'm a researcher working with `[Agency partner]` to incorporate feedback into our design process. I’m reaching out to you to see if you’re interested in participating in `[Research method]`.
 
@@ -15,15 +15,15 @@ Do you have any time `[on a specific date/time, or in a date range]` to share yo
 
 `[Google Calendar appointment link]`
 
-Thanks,  
+Thanks,
 `[Researcher name]`
 
 ---
 
-`[Researcher name]`  
-Researcher, `[Organization]`  
-`[Researcher email]`  
-`[Researcher phone]`  
+`[Researcher name]`
+Researcher, `[Organization]`
+`[Researcher email]`
+`[Researcher phone]`
 
 
 PS: If you do not wish to participate in our next research session, please let us know. If you do not wish to be contacted for *any* future research sessions related to this work, please reply to this email requesting to be removed from our contact list.

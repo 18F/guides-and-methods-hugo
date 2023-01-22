@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Hopes and fears
-permalink: /discover/hopes-and-fears/
+old_permalink: /discover/hopes-and-fears/
 redirect_from:
   - /hopes-and-fears/
 description: An exercise that quickly surfaces a group’s hopes and fears for the future

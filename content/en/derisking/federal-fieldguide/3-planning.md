@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Planning | De-risking government technology: Federal field guide | 18F"
-permalink: /federal-field-guide/planning/
+old_permalink: /federal-field-guide/planning/
 sidenav: federal
 sticky_sidenav: true
 subnav:

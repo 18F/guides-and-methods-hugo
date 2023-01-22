@@ -1,5 +1,5 @@
 ---
-permalink: /resources/email-templates/researcher-sends-agreement
+old_permalink: /resources/email-templates/researcher-sends-agreement
 layout: redirect
 title: Email template - Researcher sends agreement to a participant
 sidenav: research
@@ -7,7 +7,7 @@ sticky_sidenav: true
 redirect: https://github.com/18F/ux-guide/blob/master/_pages/resources/email-templates/researcher-sends-agreement.md
 ---
 
-Hey `[Participant name]`,  
+Hey `[Participant name]`,
 
 Thanks for your interest in participating in our research. Attached to this email is a participant agreement that describes the kind of information we're looking for (for example, candid feedback on our website's usability). It also outlines what we'll do with the information we collect.
 
@@ -15,15 +15,15 @@ My colleagues and I plan to takes notes during our session. Ideally we’ll make
 
 We appreciate your desire to participate in our research, and want to help you understand everything that entails beforehand. Please read the attached agreement, ask any questions you might have, and return a signed copy of this agreement before our session.
 
-Thanks,  
+Thanks,
 `[Researcher name]`
 
 ---
 
-`[Researcher name]`  
-Researcher, `[Organization]`  
-`[Researcher email]`  
-`[Researcher phone]`  
+`[Researcher name]`
+Researcher, `[Organization]`
+`[Researcher email]`
+`[Researcher phone]`
 
 
 PS: If you do not wish to participate in our next research session, please let us know. If you do not wish to be contacted for *any* future research sessions related to this work, please reply to this email requesting to be removed from our contact list.

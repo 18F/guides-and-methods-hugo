@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enable partners
-permalink: /partners/
+old_permalink: /partners/
 sidenav: partners
 sticky_sidenav: true
 ---

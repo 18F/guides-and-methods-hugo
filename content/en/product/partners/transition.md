@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plan for the transition
-permalink: /partners/transition/
+old_permalink: /partners/transition/
 sidenav: partners
 sticky_sidenav: true
 ---

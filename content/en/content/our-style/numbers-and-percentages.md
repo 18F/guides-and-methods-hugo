@@ -1,6 +1,6 @@
 ---
 title: Numbers and percentages
-permalink: /our-style/numbers-and-percentages/
+old_permalink: /our-style/numbers-and-percentages/
 sidenav: our-style
 sticky_sidenav: true
 subnav:
@@ -9,7 +9,7 @@ subnav:
   - text: Dates
     href: '#dates'
   - text: Percentages
-    href: '#percentages'    
+    href: '#percentages'
 ---
 
 ## Numbers

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Work with the vendor
-permalink: /partners/vendor/
+old_permalink: /partners/vendor/
 sidenav: partners
 sticky_sidenav: true
 ---

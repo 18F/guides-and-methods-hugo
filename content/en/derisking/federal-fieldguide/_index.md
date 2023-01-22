@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Introduction | De-risking government technology: Federal field guide | 18F"
-permalink: /federal-field-guide/
+old_permalink: /federal-field-guide/
 sidenav: federal
 sticky_sidenav: true
 subnav:

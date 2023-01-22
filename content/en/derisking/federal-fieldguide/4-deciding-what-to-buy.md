@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Deciding what to buy | De-risking government technology: Federal field guide | 18F"
-permalink: /federal-field-guide/deciding-what-to-buy/
+old_permalink: /federal-field-guide/deciding-what-to-buy/
 sidenav: federal
 sticky_sidenav: true
 subnav:
@@ -258,7 +258,7 @@ Sample approaches to use:
 
 **Institutional knowledge**: Reach out to and rely on colleagues and other experienced procurement professionals to learn best practices for conducting interactions, documenting any exchanges, and developing requirements for competitive solicitations.
 
-&nbsp;  
+&nbsp;
 Government employees must ensure that they keep all transactions with sales people professional, transparent, and courteous. But they also have the same responsibility.
 
 Here are some common sales tactics agencies face:
@@ -380,7 +380,7 @@ Using a modern technology suite, collaboration is easy. The product owner should
 
 **Contractors' key personnel must participate in a verbal interview process.** This provides an opportunity to hear directly from the people who will be doing the work, rather than contractors' capture managers, and usually proves a quick way of separating the wheat from the chaff. This is not the type of conversation that is defined in the FAR as "discussions," or "clarifications," and does not allow for any revisions to the already submitted, written proposal. Instead it's a critical quality control measure that confirms what was written down in the written proposal.
 
-&nbsp;  
+&nbsp;
 All of the above can be incorporated into a solicitation in a dozen or so pages, not including appendices like standard administrative clauses, a description of the technical environment that the contractor will be working within, the product backlog, etc.
 
 You can put a solicitation like this together in a few hours. In a standard, three-day 18F procurement workshop, we use only the latter half of the third day to lead our client through an exercise in which we put together such a solicitation. With the right coaching, it's not hard.

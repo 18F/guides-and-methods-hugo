@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make research actionable
-permalink: /research/make-research-actionable/
+old_permalink: /research/make-research-actionable/
 sidenav: research
 sticky_sidenav: true
 subnav:
@@ -78,7 +78,7 @@ Any approved tool can be used. We’ve listed some of our [approved, commonly us
 
 ## Insights into action
 
-Turning insights into action helps us answer and communicate:  
+Turning insights into action helps us answer and communicate:
 
 - What can we do to address the issues we identified?
 - What impact do we think our changes will make?
@@ -163,7 +163,7 @@ Research handoffs occur when wrapping up a round of research or an engagement, w
 - Where and how do files containing PII need to be stored in order to maintain privacy? Was all identifying information removed from data that hasn’t been stored securely?
 - Who should have access to what data? How will we get it to them?
 
-In addition to the above considerations, providing an introduction or tour of the work is a helpful way to transfer knowledge to new team members or vendors. Consider writing a [ReadMe](https://github.com/ONRR/doi-extractives-data/blob/dev/README.md) document which new team members can read and refer to for project background, context, history, and quick links to important files or resources.  
+In addition to the above considerations, providing an introduction or tour of the work is a helpful way to transfer knowledge to new team members or vendors. Consider writing a [ReadMe](https://github.com/ONRR/doi-extractives-data/blob/dev/README.md) document which new team members can read and refer to for project background, context, history, and quick links to important files or resources.
 
 
 ## Additional reading

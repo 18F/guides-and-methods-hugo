@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Recruiting
-permalink: /fundamentals/recruiting/
+old_permalink: /fundamentals/recruiting/
 redirect_from:
   - /recruiting/
 description: Identifying and gathering people to interview or who will test your product.
@@ -17,7 +17,7 @@ timeRequired: 1–2 weeks for 5–10 participants
 - Are trying to use the thing you are working on right at that very moment.
 - Recently tried to use the thing you are working on.
 - Used the thing you are working on less recently.
-- Have used something like what you are working on, and are likely to use what you are working on.  
+- Have used something like what you are working on, and are likely to use what you are working on.
 
 ### Reach them through
 - Relevant community organizations.
@@ -28,7 +28,7 @@ timeRequired: 1–2 weeks for 5–10 participants
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government  
+## Considerations for use in government
 
 No PRA implications. No information is collected from members of the public.
 </section>

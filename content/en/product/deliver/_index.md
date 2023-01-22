@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deliver the “right way”
-permalink: /deliver/
+old_permalink: /deliver/
 sidenav: deliver
 sticky_sidenav: true
 ---

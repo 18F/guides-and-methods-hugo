@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Basic principles of modern software design | De-risking government technology | 18F"
-permalink: /federal-field-guide/basic-principles/
+old_permalink: /federal-field-guide/basic-principles/
 sidenav: federal
 sticky_sidenav: true
 subnav:

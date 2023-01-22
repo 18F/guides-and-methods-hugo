@@ -1,6 +1,6 @@
 ---
 title: URLs and filenames
-permalink: /our-style/urls-and-filenames/
+old_permalink: /our-style/urls-and-filenames/
 sidenav: our-style
 sticky_sidenav: true
 subnav:
@@ -15,7 +15,7 @@ subnav:
   - text: Screen reader-only text
     href: '#screen-reader-only-text'
   - text: Additional resources
-    href: '#additional-resources'             
+    href: '#additional-resources'
 ---
 
 ## Creating URLs
@@ -382,7 +382,7 @@ Here the *Learn more* link is appropriate for sighted users, but it may be confu
 </a>
 ```
 
-This would keep the link concise for sighted users, while also providing 
+This would keep the link concise for sighted users, while also providing
 important context for screen reader users.
 
 If you want to use text intended only for screen readers on your project but

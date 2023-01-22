@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Understand users and their ‘as-is’ process
-permalink: /discover/users/
+old_permalink: /discover/users/
 sidenav: discover
 sticky_sidenav: true
 ---
 
 Many different people may be impacted by the outcome of your work.  Being clear about who you are focused on helping will inform your solution and strategy.  Understanding who you are solving a problem for is also important for creating a user-centric mindset with your team and building empathy and motivation for your work.  If you have a design lead on your team, they will likely lead this work, but the entire team should be closely involved.
 
-Once you know who your users are, you need to understand how they are currently “getting the job done” or how their needs are currently being met.  Observational and structured research will help you hear what users say they like or dislike about their current state.  Using a product mindset to translate their feedback into underlying goals and problems will allow your team to identify problems and solutions the users may not have thought to articulate.   
+Once you know who your users are, you need to understand how they are currently “getting the job done” or how their needs are currently being met.  Observational and structured research will help you hear what users say they like or dislike about their current state.  Using a product mindset to translate their feedback into underlying goals and problems will allow your team to identify problems and solutions the users may not have thought to articulate.
 
-In addition, no process, service, or product lives in a vacuum, so you will want to understand how these fit together to impact the overall user experience.  And past efforts and solutions will offer useful lessons to refine your understanding of what works and doesn’t work.  
+In addition, no process, service, or product lives in a vacuum, so you will want to understand how these fit together to impact the overall user experience.  And past efforts and solutions will offer useful lessons to refine your understanding of what works and doesn’t work.
 
 Your partners likely have an incomplete view of the current state or what their users need, so developing a shared baseline of where you are starting from is a necessary step to envisioning a path forward.
 
