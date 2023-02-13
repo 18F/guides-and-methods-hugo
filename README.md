@@ -1,5 +1,4 @@
-# guides-and-methods-hugo
-18F Guides and Methods using Hugo site engine
+# 18F Guides and Methods Hugo Prototype
 
 This is an experimental repository by the 18F Guides and Methods team.
 
