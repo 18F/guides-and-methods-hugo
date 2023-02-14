@@ -4,7 +4,7 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 ## Features
 
-* It's on [cloud.gov Pages](https://pages.cloud.gov/sites/1253/builds) 
+* It's on [cloud.gov Pages](https://pages.cloud.gov/sites/1253/builds)
 * Flexible layout templates
 * Dynamic navigation
 * Section specific themes
@@ -18,21 +18,25 @@ This is an experimental repository by the 18F Guides and Methods team.
 
 Please follow the instructions for [Installing Hugo locally](https://gohugo.io/getting-started/usage/).
 
-Anyone that would like to help Dockerize this setup, please contact Claire Annan (@cannandev).
-
 1. Clone `https://github.com/18F/guides-and-methods-hugo.git`
 1. `cd` into new directory.
 1. Start the built-in live server via `hugo server`.
 1. Visit default URL: localhost:1313
 
-### Create new content 
+To clone the wiki locally as a root subdirectory:
+
+`git clone https://github.com/18F/guides-and-methods-hugo.wiki.git wiki`
+
+For a detailed technical overview, visit our [Wiki](https://github.com/18F/guides-and-methods-hugo/wiki/The-Big-Tech-Doc)!
+
+### Create new content
 
 1. Add single files with `hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>`.
 1. Add a new guide (aka section) with `hugo new --kind section-bundle <SECTIONNAME>`
 
 ## Getting Started (content managers)
 
-In this GitHub repository, find content organized by Section under `content/en`, or use the GitHub search feature to find the file. All content files end in .md for Markdown. To edit a page, 
+In this GitHub repository, find content organized by Section under `content/en`, or use the GitHub search feature to find the file. All content files end in .md for Markdown. To edit a page,
 
 1. click on the edit pencil.
 2. Make content changes. The content supports plain text and [Commonmark](https://commonmark.org/help/) flavored Markdown.
@@ -48,7 +52,7 @@ Keep watching this repo for Content Management System tests. Let us know if you'
 Hopefully you already have pa11y-ci running globally! Hugo generates a default sitemap for each language out of the box. Let pa11y-ci check all the URLs in the sitemap with the following command:
 
 ```
-pa11y-ci -s http://localhost:1313/en/sitemap.xml --sitemap-find "//localhost:1313" --sitemap-replace "http://localhost:1313/" 
+pa11y-ci -s http://localhost:1313/en/sitemap.xml --sitemap-find "//localhost:1313" --sitemap-replace "http://localhost:1313/"
 ```
 
 ## Architectural Decision Records
