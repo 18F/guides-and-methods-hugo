@@ -3,14 +3,13 @@ title: "New page"
 breadcrumb: true
 inpagenav: true
 sidenav: true
-inpagenav: true
 categories: "Buy better"
 tags: [accessibility, methods]
 ---
 
 ## Heading h2
 
-"And now I will show you what is really a very interesting study, Mr. Windibank," Holmes continued. "I think of writing another little monograph some of these days on the typewriter and its relation to crime. It is a subject to which I have devoted some little attention. I have here four letters which purport to come from the missing man. They are all typewritten. In each case, not only are the 'e's' slurred and the 'r's' tailless, but you will observe, if you care to use my magnifying lens, that the fourteen other characteristics to which I have alluded are there as well."
+"Hello I will show you what is really a very interesting study, Mr. Windibank," Holmes continued. "I think of writing another little monograph some of these days on the typewriter and its relation to crime. It is a subject to which I have devoted some little attention. I have here four letters which purport to come from the missing man. They are all typewritten. In each case, not only are the 'e's' slurred and the 'r's' tailless, but you will observe, if you care to use my magnifying lens, that the fourteen other characteristics to which I have alluded are there as well."
 
 ### Heading h3
 
