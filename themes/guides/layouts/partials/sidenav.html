@@ -1,5 +1,7 @@
-<nav aria-label="Side navigation,," class="tablet:grid-col-3 margin-top-4">
-  <ul class="usa-sidenav">
+{{ if .Params.sidenav }}
+<aside class="sidenav display-none desktop:display-block float-left maxw-card-lg margin-top-4" id="page-side-navigation"
+  aria-label="Section navigation">
+  <ul class="site-sidenav usa-sidenav font-sans-2xs">
     {{ $currentPage := . }}
     {{ range where (where site.Pages "Section" .Section) "IsSection" true  }}
     <!-- grab all pages in current section -->
@@ -10,4 +12,5 @@
     {{ end }}
     {{ end }}
   </ul>
-</nav>
+</aside>
+{{ end }}
