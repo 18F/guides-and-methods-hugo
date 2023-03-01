@@ -8,7 +8,6 @@ cascade:
   featured_image: ''
 abstract: "18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day work."
 ---
-## Page content
 
 Beyond helping 18F staff do their best work, we hope these guides will inspire other federal agencies to adopt new practices. 18F’s projects with other federal agencies show that these techniques can help projects stay within budget, provide excellent value to the public, and fulfill federal rules.
 
