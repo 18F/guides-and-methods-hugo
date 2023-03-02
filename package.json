@@ -1,0 +1,25 @@
+{
+  "name": "hugogo",
+  "version": "1.0.0",
+  "description": "This is an experimental repository using Hugo for the 18F Guides and Methods.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/guides-and-methods-hugo.git"
+  },
+  "author": "cannandev, 18F",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18F/guides-and-methods-hugo/issues"
+  },
+  "homepage": "https://github.com/18F/guides-and-methods-hugo#readme",
+  "dependencies": {
+    "@uswds/uswds": "^3.3.0"
+  }
+}

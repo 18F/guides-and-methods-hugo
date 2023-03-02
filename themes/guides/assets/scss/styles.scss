@@ -1,0 +1,9 @@
+/* styles.scss */
+
+@use "./node_modules/@uswds/uswds/packages/uswds/uswds-core/" with (
+  $theme-show-compile-warnings: true,
+  $theme-show-notifications: true,
+);
+
+@forward "./node_modules/@uswds/uswds/packages/uswds/";
+@forward "uswds-theme-custom-styles";
