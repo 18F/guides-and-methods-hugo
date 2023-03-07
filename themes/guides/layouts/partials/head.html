@@ -6,6 +6,8 @@
   {{ $script := resources.Get "/uswds/dist/js/uswds-init.min.js" | resources.Fingerprint }}
   <script src="{{ $script.Permalink }}"></script>
   {{ $sass := resources.Get "/scss/styles.scss" }}
-  {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{- $sassOpts := dict "includePaths" (slice "node_modules") -}}
+  {{- $postCssOpts := dict "use" "autoprefixer" }}
+  {{- $stylesheet := $sass | resources.ExecuteAsTemplate . . | toCSS $sassOpts | resources.PostCSS $postCssOpts | minify | fingerprint "sha256" -}}
+  <link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}">
 </head>

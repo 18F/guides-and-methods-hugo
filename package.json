@@ -7,7 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "rm -rf static/uswds/ && mkdir static/uswds/",
+    "postinstall": "cp -r node_modules/@uswds/uswds/dist/ static/uswds/"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   },
   "homepage": "https://github.com/18F/guides-and-methods-hugo#readme",
   "dependencies": {
-    "@uswds/uswds": "^3.3.0"
+    "@uswds/uswds": "^3.3.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
   }
 }

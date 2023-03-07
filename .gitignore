@@ -9,6 +9,7 @@ themes/*/*/.DS_Store
 .sass-cache/
 .jekyll-metadata
 node_modules/
+static/uswds
 .ruby-version
 .env
 .DS_Store

@@ -1,9 +1,6 @@
-/* styles.scss */
+$theme-font-path: '../uswds/dist/fonts';
+$theme-image-path: '../uswds/dist/img';
+$theme-show-notifications: true;
 
-@use "./node_modules/@uswds/uswds/packages/uswds/uswds-core/" with (
-  $theme-show-compile-warnings: true,
-  $theme-show-notifications: true,
-);
-
-@forward "./node_modules/@uswds/uswds/packages/uswds/";
-@forward "uswds-theme-custom-styles";
+// @import "uswds/dist/scss/uswds"
+@import "~@uswds/uswds/dist/scss/uswds/uswds.scss"
