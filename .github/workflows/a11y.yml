@@ -20,7 +20,10 @@ jobs:
         run: npm install
 
       - name: Run server in background
-        run: npm run serve-bg
+        run: hugo serve &
 
-      - name: Run pa11y-ci
+      - name: Run pa11y-ci on homepage
+        run: npm run pa11y-ci:homepage
+
+      - name: Run pa11y-ci on sitemap
         run: npm run pa11y-ci:sitemap

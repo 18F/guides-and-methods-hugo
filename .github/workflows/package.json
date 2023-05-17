@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "serve-bg": "hugo serve &",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:1313/sitemap.xml --sitemap-exclude \"/*.pdf\""
-  },
-  "devDependencies": {
-    "pa11y-ci": "^2.4.0"
-  }
-}
