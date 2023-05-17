@@ -4,8 +4,12 @@ on: [push]
 
 jobs:
   pa11y:
-    - name: Start up hugo server
-      run: docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server
+    name: Building site and running pa11y-ci tests
+    runs-on: ubuntu-latest
 
-    - name: Run pa11y-ci
-      run: pa11y-ci --sitemap http://localhost:1313/sitemap.xml
+    steps:
+      - name: Start up hugo server
+        run: docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server
+
+      - name: Run pa11y-ci
+        run: pa11y-ci --sitemap http://localhost:1313/sitemap.xml
