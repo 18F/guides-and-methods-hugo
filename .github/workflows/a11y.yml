@@ -8,13 +8,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v1
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.110.0'
+          hugo-version: 'latest'
+          extended: true
 
-      - name: Run Hugo server
-        run: hugo server --configDir .
+      - name: Set up pa11y
+        run: npm install
+
+      - name: Run server in background
+        run: npm run serve-bg
 
       - name: Run pa11y-ci
-        run: pa11y-ci --sitemap http://localhost:1313/sitemap.xml
+        run: npm run pa11y-ci:sitemap
