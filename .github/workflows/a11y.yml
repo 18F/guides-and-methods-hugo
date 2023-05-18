@@ -37,7 +37,7 @@ jobs:
             ["index.html", "index.htm"]
 
       -
-        run: curl -vvvv http://localhost:1313/
+        run: curl -vvvv http://localhost:1313/index.html
 
 
       - name: Run pa11y-ci on homepage
