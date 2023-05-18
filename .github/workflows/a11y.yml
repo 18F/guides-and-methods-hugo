@@ -22,6 +22,16 @@ jobs:
       - name: Build the site
         run: hugo
 
+      - name: Run a server maybe?
+        uses: Eun/http-server-action@v1
+        with:
+          directory: 'public'
+          port: 1313
+
+      -
+        run: curl -vvvv http://localhost:1313/
+
+
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage
 
