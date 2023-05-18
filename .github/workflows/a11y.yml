@@ -28,7 +28,7 @@ jobs:
       - name: ls
         run: ls
 
-      - name: Run a server maybe?
+      - name: Run a server
         uses: Eun/http-server-action@v1
         with:
           directory: ./public
@@ -39,9 +39,8 @@ jobs:
       -
         run: curl -vvvv http://localhost:1313/index.html
 
+      - name: Run pa11y-ci on sitemap
+        run: npm run pa11y-ci:sitemap
 
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage
-
-      - name: Run pa11y-ci on sitemap
-        run: npm run pa11y-ci:sitemap
