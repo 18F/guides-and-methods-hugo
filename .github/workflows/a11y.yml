@@ -19,8 +19,8 @@ jobs:
       - name: Set up pa11y
         run: npm install
 
-      - name: Run server in background
-        run: hugo serve &
+      - name: Build the site
+        run: hugo
 
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage
