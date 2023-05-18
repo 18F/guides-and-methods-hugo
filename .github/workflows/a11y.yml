@@ -22,11 +22,19 @@ jobs:
       - name: Build the site
         run: hugo
 
+      - name: pwd
+        run: pwd
+
+      - name: ls
+        run: ls
+
       - name: Run a server maybe?
         uses: Eun/http-server-action@v1
         with:
-          directory: 'public'
+          directory: ./public
           port: 1313
+          index-files: |
+            ["index.html", "index.htm"]
 
       -
         run: curl -vvvv http://localhost:1313/
