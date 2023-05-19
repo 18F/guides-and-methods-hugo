@@ -27,8 +27,6 @@ jobs:
         with:
           directory: ./public
           port: 1313
-          index-files: |
-            ["index.html", "index.htm"]
 
       -
         run: curl -vvvv http://localhost:1313/index.html
@@ -38,4 +36,3 @@ jobs:
 
       - name: Run pa11y-ci on sitemap
         run: npm run pa11y-ci:sitemap
-
