@@ -9,7 +9,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-
+      - name: Use Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '17.x'
       - name: Set up pa11y
         run: npm install
 
