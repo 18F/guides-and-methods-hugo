@@ -1,0 +1,10 @@
+{
+  "defaults": {
+    "chromeLaunchConfig": { "ignoreHTTPSErrors": false },
+    "concurrency": 4,
+    "hideElements": ".exampleFailure",
+    "runners": ["axe"],
+    "standard": "WCAG2AA",
+    "timeout": 120000
+  }
+}
