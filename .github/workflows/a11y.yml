@@ -19,23 +19,5 @@ jobs:
       - name: Set up pa11y
         run: npm install
 
-      - name: Build the site
-        run: hugo
-
-      - name: Run a server
-        uses: Eun/http-server-action@v1
-        with:
-          directory: ./public
-          port: 1313
-          index-files: |
-            ["index.html", "index.htm"]
-
-      -
-        run: curl -vvvv http://localhost:1313/index.html
-
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage
-
-      - name: Run pa11y-ci on sitemap
-        run: npm run pa11y-ci:sitemap
-

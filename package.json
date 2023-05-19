@@ -2,7 +2,7 @@
   "scripts": {
     "build": "hugo",
     "serve-bg": "hugo serve &",
-    "pa11y-ci:homepage": "pa11y-ci http://localhost:1313/index.html",
+    "pa11y-ci:homepage": "npm run serve-bg && pa11y-ci http://localhost:1313/index.html",
     "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:1313/sitemap.xml --sitemap-exclude \"/*.pdf\""
   },
   "devDependencies": {
