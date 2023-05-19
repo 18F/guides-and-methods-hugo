@@ -29,7 +29,7 @@ jobs:
           port: 1313
 
       -
-        run: curl -vvvv http://localhost:1313/index.html
+        run: curl -vvvv http://http://127.0.0.1:1313/index.html
 
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage
