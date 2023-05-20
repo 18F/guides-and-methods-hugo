@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '17.x'
       - name: Set up pa11y
-        run: npm install
+        run: npm ci
 
       -
         run: curl -vvvv https://federalist-1d60e1c6-edfd-4ed3-b30a-e8a2a15b5cae.sites.pages.cloud.gov/preview/18f/guides-and-methods-hugo/jlallen/action-test/index.html
