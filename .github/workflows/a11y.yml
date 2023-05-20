@@ -9,15 +9,34 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
       - name: Use Node
         uses: actions/setup-node@v3
         with:
-          node-version: '17.x'
+          node-version: '18.x'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
       - name: Set up pa11y
         run: npm ci
 
+      - name: Build the site
+        run: hugo
+
+      - name: Run a server
+        uses: Eun/http-server-action@v1
+        with:
+          directory: ./public
+          port: 1313
+          index-files: |
+            ["index.html", "index.htm"]
+
       -
-        run: curl -vvvv https://federalist-1d60e1c6-edfd-4ed3-b30a-e8a2a15b5cae.sites.pages.cloud.gov/preview/18f/guides-and-methods-hugo/jlallen/action-test/index.html
+        run: curl -vvvv http://127.0.0.1:1313/index.html
 
       - name: Run pa11y-ci on homepage
         run: npm run pa11y-ci:homepage

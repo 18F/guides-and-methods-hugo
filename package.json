@@ -2,8 +2,8 @@
   "scripts": {
     "build": "hugo",
     "serve-bg": "hugo serve &",
-    "pa11y-ci:homepage": "pa11y-ci https://federalist-1d60e1c6-edfd-4ed3-b30a-e8a2a15b5cae.sites.pages.cloud.gov/preview/18f/guides-and-methods-hugo/jlallen/action-test/index.html",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://federalist-1d60e1c6-edfd-4ed3-b30a-e8a2a15b5cae.sites.pages.cloud.gov/preview/18f/guides-and-methods-hugo/jlallen/action-test/sitemap.xml --sitemap-exclude \"/*.pdf\""
+    "pa11y-ci:homepage": "pa11y-ci http://127.0.0.1:1313/index.html",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://127.0.0.1:1313/sitemap.xml --sitemap-exclude \"/*.pdf\""
   },
   "devDependencies": {
     "pa11y-ci": "^3.0.1"
