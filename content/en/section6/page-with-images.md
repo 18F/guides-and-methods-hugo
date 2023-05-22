@@ -19,3 +19,7 @@ title: "Page with images"
   size="width-mobile"
   link_text="Call to action"
 >}}
+
+## Gif with Markdown
+
+![This is a GIF](../assets/images/monday.gif)
