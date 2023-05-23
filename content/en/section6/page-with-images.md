@@ -26,4 +26,4 @@ title: "Page with images"
 
 ## Video
 
-{{< youtube dQw4w9WgXcQ autoplay="false" >}}
+{{< youtube id="dQw4w9WgXcQ" autoplay="false" >}}
