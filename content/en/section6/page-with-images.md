@@ -23,3 +23,7 @@ title: "Page with images"
 ## Gif with Markdown
 
 ![This is a GIF](../assets/images/monday.gif)
+
+## Video
+
+{{< youtube dQw4w9WgXcQ autoplay="false" >}}
