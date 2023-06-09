@@ -2,8 +2,7 @@
 {{ define "main" }}
 <div class="usa-in-page-nav-container">
   {{ if .Params.inpagenav }}
-  <aside class="usa-in-page-nav" data-title-text="{{ i18n " inPageNav" }}" data-title-heading-level="h4"
-    data-scroll-offset="0" data-root-margin="0px 0px 0px 0px" data-threshold="1"></aside>
+  <aside class="usa-in-page-nav" data-title-text="{{ i18n " inPageNav" }}" data-title-heading-level="h4" data-scroll-offset="0" data-root-margin="0px 0px 0px 0px" data-threshold="1"></aside>
   {{ end }}
   <main id="main-content" aria-roledescription="main" class="grid-container">
     <div class="grid-row grid-gap">
@@ -12,12 +11,14 @@
       {{ end }}
       <article class="grid-col">
         <header>
-          <h1 class="">
+          <h1>
             {{ .Title }}
           </h1>
         </header>
-        <div class="usa-prose margin-bottom-8">
-          {{ .Content }}
+        <div class="usa-prose margin-bottom-8 editable">
+          <p>
+            {{ .Content }}This is text I am adding with the visual editor.
+          </p>
         </div>
         {{ partial "related.html" . }}
         {{ partial "summary-box" . }}
