@@ -3,13 +3,13 @@
 
 name = "Guides"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/18F/guides-and-methods-hugo/blob/main/themes/guides/LICENSE"
 description = "18F Guides and Methods Hugo theme"
-homepage = "http://18f.gsa.gov/guides"
+homepage = "https://18f.gsa.gov/guides"
 tags = []
 features = ["posts", "shortcodes", "related content", "comments"]
 min_version = "0.41.0"
 
 [author]
   name = "18f"
-  homepage = "http://18f.gsa.gov"
+  homepage = "https://18f.gsa.gov"

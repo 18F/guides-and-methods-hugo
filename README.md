@@ -57,7 +57,7 @@ pa11y-ci -s http://localhost:1313/en/sitemap.xml --sitemap-find "//localhost:131
 
 ## Architectural Decision Records
 
-Check out our ADR directory (https://github.com/18F/guides-and-methods-hugo/pull/3#event-7726496797)) for a history of architectural decisions!
+Check out our [ADR directory](doc/adr/) for a history of architectural decisions!
 
 ## Contact
 Open a GitHub issue and assign to the `@guides-admins` group.
